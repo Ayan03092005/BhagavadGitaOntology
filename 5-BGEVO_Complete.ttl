@@ -1,0 +1,5148 @@
+@prefix bgevo: <http://www.semanticweb.org/apurbapaul/bgevo#> .
+@prefix bglo: <http://www.semanticweb.org/apurbapaul/bglo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bgevo:BGEVO_Complete a owl:Ontology ;
+    rdfs:label "Bhagavad Gita Ethical Virtue Ontology" ;
+    rdfs:comment "Ontology representing virtues, vices, and their relationships with fine-grained laws defined in the Bhagavad Gita Law Ontology." ;
+    owl:imports <http://www.semanticweb.org/apurbapaul/bglo> ;
+    owl:versionInfo "1.0" .
+
+bgevo:VC001 a bgevo:Vice ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC001"^^xsd:string ;
+    bgevo:viceName "Absence of Devine Love"^^xsd:string .
+
+bgevo:VC021 a bgevo:Vice ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC021"^^xsd:string ;
+    bgevo:viceName "Conceit"^^xsd:string .
+
+bgevo:VC036 a bgevo:Vice ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC036"^^xsd:string ;
+    bgevo:viceName "Disloyalty"^^xsd:string .
+
+bgevo:VC039 a bgevo:Vice ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC039"^^xsd:string ;
+    bgevo:viceName "Disrespect for Dharma"^^xsd:string .
+
+bgevo:VC045 a bgevo:Vice ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC045"^^xsd:string ;
+    bgevo:viceName "Divided Loyalty"^^xsd:string .
+
+bgevo:VC056 a bgevo:Vice ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC056"^^xsd:string ;
+    bgevo:viceName "Excessive Talkativeness"^^xsd:string .
+
+bgevo:VC072 a bgevo:Vice ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC072"^^xsd:string ;
+    bgevo:viceName "Fearfulness"^^xsd:string .
+
+bgevo:VC098 a bgevo:Vice ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC098"^^xsd:string ;
+    bgevo:viceName "Indecision"^^xsd:string .
+
+bgevo:VC104 a bgevo:Vice ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC104"^^xsd:string ;
+    bgevo:viceName "Injustice"^^xsd:string .
+
+bgevo:VC107 a bgevo:Vice ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC107"^^xsd:string ;
+    bgevo:viceName "Insensitivity"^^xsd:string .
+
+bgevo:VC129 a bgevo:Vice ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC129"^^xsd:string ;
+    bgevo:viceName "Lack of Love"^^xsd:string .
+
+bgevo:VC135 a bgevo:Vice ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC135"^^xsd:string ;
+    bgevo:viceName "Lack of Self-Mastery"^^xsd:string .
+
+bgevo:VC143 a bgevo:Vice ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC143"^^xsd:string ;
+    bgevo:viceName "Malice"^^xsd:string .
+
+bgevo:VC160 a bgevo:Vice ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC160"^^xsd:string ;
+    bgevo:viceName "Meaninglessness"^^xsd:string .
+
+bgevo:VC162 a bgevo:Vice ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC162"^^xsd:string ;
+    bgevo:viceName "Mediocrity"^^xsd:string .
+
+bgevo:VC165 a bgevo:Vice ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC165"^^xsd:string ;
+    bgevo:viceName "Mental Dullness"^^xsd:string .
+
+bgevo:VC176 a bgevo:Vice ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC176"^^xsd:string ;
+    bgevo:viceName "Misuse of Strength"^^xsd:string .
+
+bgevo:VC177 a bgevo:Vice ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC177"^^xsd:string ;
+    bgevo:viceName "Moral Blindness"^^xsd:string .
+
+bgevo:VC188 a bgevo:Vice ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC188"^^xsd:string ;
+    bgevo:viceName "Poor Leadership"^^xsd:string .
+
+bgevo:VC196 a bgevo:Vice ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC196"^^xsd:string ;
+    bgevo:viceName "Resistance to Divine Will"^^xsd:string .
+
+bgevo:VC221 a bgevo:Vice ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC221"^^xsd:string ;
+    bgevo:viceName "Skepticism"^^xsd:string .
+
+bgevo:VC236 a bgevo:Vice ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC236"^^xsd:string ;
+    bgevo:viceName "Spiritual Negligence"^^xsd:string .
+
+bgevo:VC243 a bgevo:Vice ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC243"^^xsd:string ;
+    bgevo:viceName "Uncleanliness"^^xsd:string .
+
+bgevo:VT011 a bgevo:Virtue ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT011"^^xsd:string ;
+    bgevo:virtueName "Beauty Appreciation"^^xsd:string .
+
+bgevo:VT014 a bgevo:Virtue ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT014"^^xsd:string ;
+    bgevo:virtueName "Cleanliness"^^xsd:string .
+
+bgevo:VT027 a bgevo:Virtue ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT027"^^xsd:string ;
+    bgevo:virtueName "Creativity"^^xsd:string .
+
+bgevo:VT048 a bgevo:Virtue ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT048"^^xsd:string ;
+    bgevo:virtueName "Divine Realization"^^xsd:string .
+
+bgevo:VT067 a bgevo:Virtue ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT067"^^xsd:string ;
+    bgevo:virtueName "Freedom from Anxiety"^^xsd:string .
+
+bgevo:VT073 a bgevo:Virtue ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT073"^^xsd:string ;
+    bgevo:virtueName "Freedom from Hatred"^^xsd:string .
+
+bgevo:VT074 a bgevo:Virtue ;
+    bgevo:virtueCategory "Desire-Based"^^xsd:string ;
+    bgevo:virtueID "VT074"^^xsd:string ;
+    bgevo:virtueName "Freedom from Lust"^^xsd:string .
+
+bgevo:VT084 a bgevo:Virtue ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT084"^^xsd:string ;
+    bgevo:virtueName "Heroism"^^xsd:string .
+
+bgevo:VT097 a bgevo:Virtue ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT097"^^xsd:string ;
+    bgevo:virtueName "Intelligence"^^xsd:string .
+
+bgevo:VT098 a bgevo:Virtue ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT098"^^xsd:string ;
+    bgevo:virtueName "Justice"^^xsd:string .
+
+bgevo:VT108 a bgevo:Virtue ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT108"^^xsd:string ;
+    bgevo:virtueName "Loyalty"^^xsd:string .
+
+bgevo:VT142 a bgevo:Virtue ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT142"^^xsd:string ;
+    bgevo:virtueName "Reflection"^^xsd:string .
+
+bgevo:VT148 a bgevo:Virtue ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT148"^^xsd:string ;
+    bgevo:virtueName "Respect for Dharma"^^xsd:string .
+
+bgevo:VT155 a bgevo:Virtue ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT155"^^xsd:string ;
+    bgevo:virtueName "Righteous Conduct"^^xsd:string .
+
+bgevo:VT180 a bgevo:Virtue ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT180"^^xsd:string ;
+    bgevo:virtueName "Silence"^^xsd:string .
+
+bgevo:VT183 a bgevo:Virtue ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT183"^^xsd:string ;
+    bgevo:virtueName "Skillfulness"^^xsd:string .
+
+bgevo:VT194 a bgevo:Virtue ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT194"^^xsd:string ;
+    bgevo:virtueName "Spiritual Freedom"^^xsd:string .
+
+bgevo:VT200 a bgevo:Virtue ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT200"^^xsd:string ;
+    bgevo:virtueName "Spiritual Responsibility"^^xsd:string .
+
+bgevo:VT219 a bgevo:Virtue ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT219"^^xsd:string ;
+    bgevo:virtueName "Truth-Centered Living"^^xsd:string .
+
+bgevo:VT224 a bgevo:Virtue ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT224"^^xsd:string ;
+    bgevo:virtueName "Universal Benevolence"^^xsd:string .
+
+bgevo:viceCategory a owl:DatatypeProperty ;
+    rdfs:label "Vice Category" ;
+    rdfs:domain bgevo:Vice ;
+    rdfs:range xsd:string .
+
+bgevo:viceID a owl:DatatypeProperty ;
+    rdfs:label "Vice ID" ;
+    rdfs:domain bgevo:Vice ;
+    rdfs:range xsd:string .
+
+bgevo:viceName a owl:DatatypeProperty ;
+    rdfs:label "Vice Name" ;
+    rdfs:domain bgevo:Vice ;
+    rdfs:range xsd:string .
+
+bgevo:virtueCategory a owl:DatatypeProperty ;
+    rdfs:label "Virtue Category" ;
+    rdfs:domain bgevo:Virtue ;
+    rdfs:range xsd:string .
+
+bgevo:virtueID a owl:DatatypeProperty ;
+    rdfs:label "Virtue ID" ;
+    rdfs:domain bgevo:Virtue ;
+    rdfs:range xsd:string .
+
+bgevo:virtueName a owl:DatatypeProperty ;
+    rdfs:label "Virtue Name" ;
+    rdfs:domain bgevo:Virtue ;
+    rdfs:range xsd:string .
+
+bgevo:VC002 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL8 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC002"^^xsd:string ;
+    bgevo:viceName "Absence of Devotion"^^xsd:string .
+
+bgevo:VC003 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL37 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC003"^^xsd:string ;
+    bgevo:viceName "Addiction"^^xsd:string .
+
+bgevo:VC004 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL35 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC004"^^xsd:string ;
+    bgevo:viceName "Aimlessness"^^xsd:string .
+
+bgevo:VC007 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL16 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC007"^^xsd:string ;
+    bgevo:viceName "Apathy"^^xsd:string .
+
+bgevo:VC009 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL10 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC009"^^xsd:string ;
+    bgevo:viceName "Artificiality"^^xsd:string .
+
+bgevo:VC010 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL7 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC010"^^xsd:string ;
+    bgevo:viceName "Atheism"^^xsd:string .
+
+bgevo:VC012 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL27 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC012"^^xsd:string ;
+    bgevo:viceName "Attachment and Aversion"^^xsd:string .
+
+bgevo:VC014 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL27 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC014"^^xsd:string ;
+    bgevo:viceName "Attachment to Success"^^xsd:string .
+
+bgevo:VC015 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL21 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC015"^^xsd:string ;
+    bgevo:viceName "Bad Example"^^xsd:string .
+
+bgevo:VC017 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL21 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC017"^^xsd:string ;
+    bgevo:viceName "Carelessness"^^xsd:string .
+
+bgevo:VC019 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL3 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC019"^^xsd:string ;
+    bgevo:viceName "Complacency"^^xsd:string .
+
+bgevo:VC020 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL26 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC020"^^xsd:string ;
+    bgevo:viceName "Complexity"^^xsd:string .
+
+bgevo:VC023 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL10 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC023"^^xsd:string ;
+    bgevo:viceName "Corruption"^^xsd:string .
+
+bgevo:VC024 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL11 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC024"^^xsd:string ;
+    bgevo:viceName "Cowardice"^^xsd:string .
+
+bgevo:VC026 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL16 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC026"^^xsd:string ;
+    bgevo:viceName "Darkness of Knowledge"^^xsd:string .
+
+bgevo:VC028 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL17 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC028"^^xsd:string ;
+    bgevo:viceName "Dependence"^^xsd:string .
+
+bgevo:VC029 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL21 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC029"^^xsd:string ;
+    bgevo:viceName "Dependence on External Pleasure"^^xsd:string .
+
+bgevo:VC031 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL2 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC031"^^xsd:string ;
+    bgevo:viceName "Desire for Results"^^xsd:string .
+
+bgevo:VC032 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH1_FL8 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC032"^^xsd:string ;
+    bgevo:viceName "Despair"^^xsd:string .
+
+bgevo:VC035 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL9 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC035"^^xsd:string ;
+    bgevo:viceName "Dishonesty"^^xsd:string .
+
+bgevo:VC040 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL11 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC040"^^xsd:string ;
+    bgevo:viceName "Disrespect for Teachers"^^xsd:string .
+
+bgevo:VC042 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL7 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC042"^^xsd:string ;
+    bgevo:viceName "Distraction"^^xsd:string .
+
+bgevo:VC044 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL20 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC044"^^xsd:string ;
+    bgevo:viceName "Divided Devotion"^^xsd:string .
+
+bgevo:VC052 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL6 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC052"^^xsd:string ;
+    bgevo:viceName "Egoistic Motivation"^^xsd:string .
+
+bgevo:VC055 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH1_FL5 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC055"^^xsd:string ;
+    bgevo:viceName "Emotional Weakness"^^xsd:string .
+
+bgevo:VC058 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL15 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC058"^^xsd:string ;
+    bgevo:viceName "Exclusivism"^^xsd:string .
+
+bgevo:VC059 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL14 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC059"^^xsd:string ;
+    bgevo:viceName "Exploitation"^^xsd:string .
+
+bgevo:VC060 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL2 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC060"^^xsd:string ;
+    bgevo:viceName "Extremism"^^xsd:string .
+
+bgevo:VC061 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL17 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC061"^^xsd:string ;
+    bgevo:viceName "Failure of Recognition"^^xsd:string .
+
+bgevo:VC062 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL19 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC062"^^xsd:string ;
+    bgevo:viceName "Failure to Recognize Divinity"^^xsd:string .
+
+bgevo:VC066 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL11 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC066"^^xsd:string ;
+    bgevo:viceName "False Renunciation"^^xsd:string .
+
+bgevo:VC067 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL22 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC067"^^xsd:string ;
+    bgevo:viceName "False Understanding"^^xsd:string .
+
+bgevo:VC069 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL17 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC069"^^xsd:string ;
+    bgevo:viceName "Familiarity-Based Disrespect"^^xsd:string .
+
+bgevo:VC071 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL10 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC071"^^xsd:string ;
+    bgevo:viceName "Fear of Change"^^xsd:string .
+
+bgevo:VC075 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL30 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC075"^^xsd:string ;
+    bgevo:viceName "Forgetfulness of God"^^xsd:string .
+
+bgevo:VC076 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL17 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC076"^^xsd:string ;
+    bgevo:viceName "Forgetfulness of Mortality"^^xsd:string .
+
+bgevo:VC077 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL21 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC077"^^xsd:string ;
+    bgevo:viceName "Fragmented Vision"^^xsd:string .
+
+bgevo:VC083 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL13 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC083"^^xsd:string ;
+    bgevo:viceName "Hatred"^^xsd:string .
+
+bgevo:VC085 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL14 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC085"^^xsd:string ;
+    bgevo:viceName "Hostility"^^xsd:string .
+
+bgevo:VC086 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL17 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC086"^^xsd:string ;
+    bgevo:viceName "Hypocrisy"^^xsd:string .
+
+bgevo:VC087 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL8 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC087"^^xsd:string ;
+    bgevo:viceName "Identity Confusion"^^xsd:string .
+
+bgevo:VC089 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL6 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC089"^^xsd:string ;
+    bgevo:viceName "Ignorance of Origin"^^xsd:string .
+
+bgevo:VC090 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL20 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC090"^^xsd:string ;
+    bgevo:viceName "Ignorance of Self"^^xsd:string .
+
+bgevo:VC091 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL17 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC091"^^xsd:string ;
+    bgevo:viceName "Ignorance of Time"^^xsd:string .
+
+bgevo:VC092 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL17 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC092"^^xsd:string ;
+    bgevo:viceName "Imbalance"^^xsd:string .
+
+bgevo:VC093 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL33 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC093"^^xsd:string ;
+    bgevo:viceName "Imitation"^^xsd:string .
+
+bgevo:VC096 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL2 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC096"^^xsd:string ;
+    bgevo:viceName "Inaction"^^xsd:string .
+
+bgevo:VC097 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL15 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC097"^^xsd:string ;
+    bgevo:viceName "Inconsistency"^^xsd:string .
+
+bgevo:VC101 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL32 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC101"^^xsd:string ;
+    bgevo:viceName "Inequality"^^xsd:string .
+
+bgevo:VC102 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL40 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC102"^^xsd:string ;
+    bgevo:viceName "Inferior Spiritual Goals"^^xsd:string .
+
+bgevo:VC105 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL27 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC105"^^xsd:string ;
+    bgevo:viceName "Inner Conflict"^^xsd:string .
+
+bgevo:VC109 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL35 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC109"^^xsd:string ;
+    bgevo:viceName "Intellectual Pride"^^xsd:string .
+
+bgevo:VC113 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL9 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC113"^^xsd:string ;
+    bgevo:viceName "Isolation"^^xsd:string .
+
+bgevo:VC114 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL51 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC114"^^xsd:string ;
+    bgevo:viceName "Knowledge Hoarding"^^xsd:string .
+
+bgevo:VC115 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL17 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC115"^^xsd:string ;
+    bgevo:viceName "Lack of Aspiration"^^xsd:string .
+
+bgevo:VC116 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL24 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC116"^^xsd:string ;
+    bgevo:viceName "Lack of Commitment"^^xsd:string .
+
+bgevo:VC119 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL56 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC119"^^xsd:string ;
+    bgevo:viceName "Lack of Conviction"^^xsd:string .
+
+bgevo:VC120 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL15 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC120"^^xsd:string ;
+    bgevo:viceName "Lack of Curiosity"^^xsd:string .
+
+bgevo:VC125 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL10 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC125"^^xsd:string ;
+    bgevo:viceName "Lack of Focus"^^xsd:string .
+
+bgevo:VC128 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL2 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC128"^^xsd:string ;
+    bgevo:viceName "Lack of Knowledge"^^xsd:string .
+
+bgevo:VC130 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL32 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC130"^^xsd:string ;
+    bgevo:viceName "Lack of Realization"^^xsd:string .
+
+bgevo:VC131 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL22 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC131"^^xsd:string ;
+    bgevo:viceName "Lack of Reflection"^^xsd:string .
+
+bgevo:VC132 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL30 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC132"^^xsd:string ;
+    bgevo:viceName "Lack of Restraint"^^xsd:string .
+
+bgevo:VC133 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL2 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC133"^^xsd:string ;
+    bgevo:viceName "Lack of Self-Awareness"^^xsd:string .
+
+bgevo:VC136 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL22 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC136"^^xsd:string ;
+    bgevo:viceName "Lack of Trust"^^xsd:string .
+
+bgevo:VC137 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL4 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC137"^^xsd:string ;
+    bgevo:viceName "Lack of Understanding"^^xsd:string .
+
+bgevo:VC138 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL16 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC138"^^xsd:string ;
+    bgevo:viceName "Lack of Wisdom"^^xsd:string .
+
+bgevo:VC140 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL7 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC140"^^xsd:string ;
+    bgevo:viceName "Limited Vision"^^xsd:string .
+
+bgevo:VC142 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL8 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC142"^^xsd:string ;
+    bgevo:viceName "Luxury-Seeking"^^xsd:string .
+
+bgevo:VC144 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL18 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC144"^^xsd:string ;
+    bgevo:viceName "Material Absorption"^^xsd:string .
+
+bgevo:VC145 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL20 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC145"^^xsd:string ;
+    bgevo:viceName "Material Ambition"^^xsd:string .
+
+bgevo:VC146 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL15 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC146"^^xsd:string ;
+    bgevo:viceName "Material Aspiration"^^xsd:string .
+
+bgevo:VC149 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL11 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC149"^^xsd:string ;
+    bgevo:viceName "Material Complexity"^^xsd:string .
+
+bgevo:VC150 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL6 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC150"^^xsd:string ;
+    bgevo:viceName "Material Conditioning"^^xsd:string .
+
+bgevo:VC151 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL10 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC151"^^xsd:string ;
+    bgevo:viceName "Material Consciousness"^^xsd:string .
+
+bgevo:VC152 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL21 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC152"^^xsd:string ;
+    bgevo:viceName "Material Craving"^^xsd:string .
+
+bgevo:VC154 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL2 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC154"^^xsd:string ;
+    bgevo:viceName "Material Entanglement"^^xsd:string .
+
+bgevo:VC156 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL20 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC156"^^xsd:string ;
+    bgevo:viceName "Material Knowledge"^^xsd:string .
+
+bgevo:VC157 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL36 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC157"^^xsd:string ;
+    bgevo:viceName "Material Pleasure Seeking"^^xsd:string .
+
+bgevo:VC158 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL25 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC158"^^xsd:string ;
+    bgevo:viceName "Material Worship"^^xsd:string .
+
+bgevo:VC159 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL34 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC159"^^xsd:string ;
+    bgevo:viceName "Materialistic Understanding"^^xsd:string .
+
+bgevo:VC161 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL38 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC161"^^xsd:string ;
+    bgevo:viceName "Mechanical Work"^^xsd:string .
+
+bgevo:VC166 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL16 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC166"^^xsd:string ;
+    bgevo:viceName "Mental Impurity"^^xsd:string .
+
+bgevo:VC168 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL29 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC168"^^xsd:string ;
+    bgevo:viceName "Mental Restlessness"^^xsd:string .
+
+bgevo:VC169 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL59 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC169"^^xsd:string ;
+    bgevo:viceName "Misalignment with Dharma"^^xsd:string .
+
+bgevo:VC171 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL4 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC171"^^xsd:string ;
+    bgevo:viceName "Misguided Worship"^^xsd:string .
+
+bgevo:VC172 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL38 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC172"^^xsd:string ;
+    bgevo:viceName "Misidentification"^^xsd:string .
+
+bgevo:VC174 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL24 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC174"^^xsd:string ;
+    bgevo:viceName "Misunderstanding the Divine"^^xsd:string .
+
+bgevo:VC175 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL11 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC175"^^xsd:string ;
+    bgevo:viceName "Misuse of Power"^^xsd:string .
+
+bgevo:VC178 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL28 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC178"^^xsd:string ;
+    bgevo:viceName "Narrow Vision"^^xsd:string .
+
+bgevo:VC179 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL9 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC179"^^xsd:string ;
+    bgevo:viceName "Neglect of Duty"^^xsd:string .
+
+bgevo:VC180 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL9 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC180"^^xsd:string ;
+    bgevo:viceName "Neglect of Practice"^^xsd:string .
+
+bgevo:VC181 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL7 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC181"^^xsd:string ;
+    bgevo:viceName "Neglect of Scripture"^^xsd:string .
+
+bgevo:VC182 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL14 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC182"^^xsd:string ;
+    bgevo:viceName "Neglect of Worship"^^xsd:string .
+
+bgevo:VC184 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL4 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC184"^^xsd:string ;
+    bgevo:viceName "Non-Cooperation"^^xsd:string .
+
+bgevo:VC186 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL5 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC186"^^xsd:string ;
+    bgevo:viceName "Philosophical Confusion"^^xsd:string .
+
+bgevo:VC187 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL3 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC187"^^xsd:string ;
+    bgevo:viceName "Poor Judgment"^^xsd:string .
+
+bgevo:VC190 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL18 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC190"^^xsd:string ;
+    bgevo:viceName "Prejudice"^^xsd:string .
+
+bgevo:VC193 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL13 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC193"^^xsd:string ;
+    bgevo:viceName "Resistance"^^xsd:string .
+
+bgevo:VC194 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL31 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC194"^^xsd:string ;
+    bgevo:viceName "Resistance to Change"^^xsd:string .
+
+bgevo:VC195 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL19 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC195"^^xsd:string ;
+    bgevo:viceName "Resistance to Divine Surrender"^^xsd:string .
+
+bgevo:VC197 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL10 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC197"^^xsd:string ;
+    bgevo:viceName "Resistance to Guidance"^^xsd:string .
+
+bgevo:VC198 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL40 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC198"^^xsd:string ;
+    bgevo:viceName "Resistance to Reality"^^xsd:string .
+
+bgevo:VC201 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL13 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC201"^^xsd:string ;
+    bgevo:viceName "Ritualism"^^xsd:string .
+
+bgevo:VC202 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL4 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC202"^^xsd:string ;
+    bgevo:viceName "Sectarian Thinking"^^xsd:string .
+
+bgevo:VC205 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL6 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC205"^^xsd:string ;
+    bgevo:viceName "Self-Indulgence"^^xsd:string .
+
+bgevo:VC206 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL18 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC206"^^xsd:string ;
+    bgevo:viceName "Selfish Motivation"^^xsd:string .
+
+bgevo:VC208 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL5 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC208"^^xsd:string ;
+    bgevo:viceName "Self-Neglect"^^xsd:string .
+
+bgevo:VC210 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL6 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC210"^^xsd:string ;
+    bgevo:viceName "Self-Sabotage"^^xsd:string .
+
+bgevo:VC213 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL22 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC213"^^xsd:string ;
+    bgevo:viceName "Sense Enjoyment"^^xsd:string .
+
+bgevo:VC214 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL25 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC214"^^xsd:string ;
+    bgevo:viceName "Sense Indulgence"^^xsd:string .
+
+bgevo:VC215 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL29 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC215"^^xsd:string ;
+    bgevo:viceName "Sensory Disturbance"^^xsd:string .
+
+bgevo:VC216 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL31 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC216"^^xsd:string ;
+    bgevo:viceName "Separateness"^^xsd:string .
+
+bgevo:VC217 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL19 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC217"^^xsd:string ;
+    bgevo:viceName "Short-Sightedness"^^xsd:string .
+
+bgevo:VC219 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL37 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC219"^^xsd:string ;
+    bgevo:viceName "Sinful Reactions"^^xsd:string .
+
+bgevo:VC222 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL21 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC222"^^xsd:string ;
+    bgevo:viceName "Social Dependence"^^xsd:string .
+
+bgevo:VC223 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH9_FL25 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC223"^^xsd:string ;
+    bgevo:viceName "Social Discrimination"^^xsd:string .
+
+bgevo:VC224 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL10 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC224"^^xsd:string ;
+    bgevo:viceName "Social Distraction"^^xsd:string .
+
+bgevo:VC225 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL8 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC225"^^xsd:string ;
+    bgevo:viceName "Social Irresponsibility"^^xsd:string .
+
+bgevo:VC228 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL27 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC228"^^xsd:string ;
+    bgevo:viceName "Spiritual Carelessness"^^xsd:string .
+
+bgevo:VC230 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL18 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC230"^^xsd:string ;
+    bgevo:viceName "Spiritual Disinterest"^^xsd:string .
+
+bgevo:VC233 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL23 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC233"^^xsd:string ;
+    bgevo:viceName "Spiritual Incompleteness"^^xsd:string .
+
+bgevo:VC234 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL5 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC234"^^xsd:string ;
+    bgevo:viceName "Spiritual Isolation"^^xsd:string .
+
+bgevo:VC237 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL39 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC237"^^xsd:string ;
+    bgevo:viceName "Stagnation"^^xsd:string .
+
+bgevo:VC238 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL21 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC238"^^xsd:string ;
+    bgevo:viceName "Stinginess"^^xsd:string .
+
+bgevo:VC239 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL22 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC239"^^xsd:string ;
+    bgevo:viceName "Subjectivity"^^xsd:string .
+
+bgevo:VC240 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL17 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC240"^^xsd:string ;
+    bgevo:viceName "Superficial Understanding"^^xsd:string .
+
+bgevo:VC241 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL14 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC241"^^xsd:string ;
+    bgevo:viceName "Tamasic Tendencies"^^xsd:string .
+
+bgevo:VC245 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL8 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC245"^^xsd:string ;
+    bgevo:viceName "Unhealthy Habits"^^xsd:string .
+
+bgevo:VC249 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL26 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC249"^^xsd:string ;
+    bgevo:viceName "Wandering Mind"^^xsd:string .
+
+bgevo:VC251 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL23 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC251"^^xsd:string ;
+    bgevo:viceName "Weak Resolve"^^xsd:string .
+
+bgevo:VC253 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH8_FL21 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC253"^^xsd:string ;
+    bgevo:viceName "Worldly Desire"^^xsd:string .
+
+bgevo:VT003 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL8 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT003"^^xsd:string ;
+    bgevo:virtueName "Austerity"^^xsd:string .
+
+bgevo:VT004 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL39 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT004"^^xsd:string ;
+    bgevo:virtueName "Authentic Growth"^^xsd:string .
+
+bgevo:VT006 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL31 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT006"^^xsd:string ;
+    bgevo:virtueName "Awakening"^^xsd:string .
+
+bgevo:VT008 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL17 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT008"^^xsd:string ;
+    bgevo:virtueName "Awareness of Mortality"^^xsd:string .
+
+bgevo:VT009 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL10 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT009"^^xsd:string ;
+    bgevo:virtueName "Awe"^^xsd:string .
+
+bgevo:VT015 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL18 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT015"^^xsd:string ;
+    bgevo:virtueName "Commitment to Duty"^^xsd:string .
+
+bgevo:VT017 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL19 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT017"^^xsd:string ;
+    bgevo:virtueName "Complete Surrender"^^xsd:string .
+
+bgevo:VT019 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL6 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT019"^^xsd:string ;
+    bgevo:virtueName "Consistency"^^xsd:string .
+
+bgevo:VT020 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL14 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT020"^^xsd:string ;
+    bgevo:virtueName "Constant Devotion"^^xsd:string .
+
+bgevo:VT021 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL30 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT021"^^xsd:string ;
+    bgevo:virtueName "Constant Remembrance"^^xsd:string .
+
+bgevo:VT023 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL56 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT023"^^xsd:string ;
+    bgevo:virtueName "Conviction"^^xsd:string .
+
+bgevo:VT025 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL18 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT025"^^xsd:string ;
+    bgevo:virtueName "Cosmic Awareness"^^xsd:string .
+
+bgevo:VT028 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL15 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT028"^^xsd:string ;
+    bgevo:virtueName "Curiosity"^^xsd:string .
+
+bgevo:VT029 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL27 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT029"^^xsd:string ;
+    bgevo:virtueName "Dedication"^^xsd:string .
+
+bgevo:VT030 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL17 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT030"^^xsd:string ;
+    bgevo:virtueName "Detached Action"^^xsd:string .
+
+bgevo:VT035 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL5 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT035"^^xsd:string ;
+    bgevo:virtueName "Devotional Absorption"^^xsd:string .
+
+bgevo:VT036 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL10 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT036"^^xsd:string ;
+    bgevo:virtueName "Devotional Consciousness"^^xsd:string .
+
+bgevo:VT037 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL18 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT037"^^xsd:string ;
+    bgevo:virtueName "Devotional Interest"^^xsd:string .
+
+bgevo:VT038 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL1 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT038"^^xsd:string ;
+    bgevo:virtueName "Diligence"^^xsd:string .
+
+bgevo:VT041 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL59 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT041"^^xsd:string ;
+    bgevo:virtueName "Divine Alignment"^^xsd:string .
+
+bgevo:VT043 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL7 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT043"^^xsd:string ;
+    bgevo:virtueName "Divine Consciousness"^^xsd:string .
+
+bgevo:VT045 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL11 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT045"^^xsd:string ;
+    bgevo:virtueName "Divine Grace"^^xsd:string .
+
+bgevo:VT046 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL57 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT046"^^xsd:string ;
+    bgevo:virtueName "Divine Knowledge"^^xsd:string .
+
+bgevo:VT047 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL45 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT047"^^xsd:string ;
+    bgevo:virtueName "Divine Love"^^xsd:string .
+
+bgevo:VT050 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL9 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT050"^^xsd:string ;
+    bgevo:virtueName "Divine Understanding"^^xsd:string .
+
+bgevo:VT053 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL16 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT053"^^xsd:string ;
+    bgevo:virtueName "Enlightenment"^^xsd:string .
+
+bgevo:VT057 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH1_FL7 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT057"^^xsd:string ;
+    bgevo:virtueName "Ethical Sensitivity"^^xsd:string .
+
+bgevo:VT059 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL20 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT059"^^xsd:string ;
+    bgevo:virtueName "Exclusive Devotion"^^xsd:string .
+
+bgevo:VT060 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL21 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT060"^^xsd:string ;
+    bgevo:virtueName "Exemplary Conduct"^^xsd:string .
+
+bgevo:VT062 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL21 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT062"^^xsd:string ;
+    bgevo:virtueName "Faithfulness"^^xsd:string .
+
+bgevo:VT065 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL21 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT065"^^xsd:string ;
+    bgevo:virtueName "Fortitude"^^xsd:string .
+
+bgevo:VT066 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL12 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT066"^^xsd:string ;
+    bgevo:virtueName "Freedom from Anger"^^xsd:string .
+
+bgevo:VT071 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL16 ;
+    bgevo:virtueCategory "Ego-Based"^^xsd:string ;
+    bgevo:virtueID "VT071"^^xsd:string ;
+    bgevo:virtueName "Freedom from Ego"^^xsd:string .
+
+bgevo:VT072 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL16 ;
+    bgevo:virtueCategory "Desire-Based"^^xsd:string ;
+    bgevo:virtueID "VT072"^^xsd:string ;
+    bgevo:virtueName "Freedom from Greed"^^xsd:string .
+
+bgevo:VT075 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL16 ;
+    bgevo:virtueCategory "Desire-Based"^^xsd:string ;
+    bgevo:virtueID "VT075"^^xsd:string ;
+    bgevo:virtueName "Freedom from Possessiveness"^^xsd:string .
+
+bgevo:VT076 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL29 ;
+    bgevo:virtueCategory "Ego-Based"^^xsd:string ;
+    bgevo:virtueID "VT076"^^xsd:string ;
+    bgevo:virtueName "Freedom from Pride"^^xsd:string .
+
+bgevo:VT077 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL14 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT077"^^xsd:string ;
+    bgevo:virtueName "Friendship"^^xsd:string .
+
+bgevo:VT079 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL17 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT079"^^xsd:string ;
+    bgevo:virtueName "Gentleness"^^xsd:string .
+
+bgevo:VT080 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL24 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT080"^^xsd:string ;
+    bgevo:virtueName "Good Judgment"^^xsd:string .
+
+bgevo:VT081 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL14 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT081"^^xsd:string ;
+    bgevo:virtueName "Goodness"^^xsd:string .
+
+bgevo:VT083 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL8 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT083"^^xsd:string ;
+    bgevo:virtueName "Healthy Living"^^xsd:string .
+
+bgevo:VT088 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL8 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT088"^^xsd:string ;
+    bgevo:virtueName "Identity Awareness"^^xsd:string .
+
+bgevo:VT089 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL15 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT089"^^xsd:string ;
+    bgevo:virtueName "Inclusiveness"^^xsd:string .
+
+bgevo:VT090 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL21 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT090"^^xsd:string ;
+    bgevo:virtueName "Inner Happiness"^^xsd:string .
+
+bgevo:VT091 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL7 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT091"^^xsd:string ;
+    bgevo:virtueName "Inner Harmony"^^xsd:string .
+
+bgevo:VT092 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL12 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT092"^^xsd:string ;
+    bgevo:virtueName "Inner Peace"^^xsd:string .
+
+bgevo:VT096 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL10 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT096"^^xsd:string ;
+    bgevo:virtueName "Integrity"^^xsd:string .
+
+bgevo:VT100 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL51 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT100"^^xsd:string ;
+    bgevo:virtueName "Knowledge Sharing"^^xsd:string .
+
+bgevo:VT102 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL15 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT102"^^xsd:string ;
+    bgevo:virtueName "Liberation Aspiration"^^xsd:string .
+
+bgevo:VT105 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL21 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT105"^^xsd:string ;
+    bgevo:virtueName "Love of Solitude"^^xsd:string .
+
+bgevo:VT107 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL19 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT107"^^xsd:string ;
+    bgevo:virtueName "Loving Service"^^xsd:string .
+
+bgevo:VT110 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL16 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT110"^^xsd:string ;
+    bgevo:virtueName "Mental Purity"^^xsd:string .
+
+bgevo:VT111 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL26 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT111"^^xsd:string ;
+    bgevo:virtueName "Mindfulness"^^xsd:string .
+
+bgevo:VT113 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL18 ;
+    bgevo:virtueCategory "Ego-Based"^^xsd:string ;
+    bgevo:virtueID "VT113"^^xsd:string ;
+    bgevo:virtueName "Modesty"^^xsd:string .
+
+bgevo:VT114 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH1_FL2 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT114"^^xsd:string ;
+    bgevo:virtueName "Moral Awareness"^^xsd:string .
+
+bgevo:VT115 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL25 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT115"^^xsd:string ;
+    bgevo:virtueName "Non-Attachment"^^xsd:string .
+
+bgevo:VT117 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL13 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT117"^^xsd:string ;
+    bgevo:virtueName "Non-Hatred"^^xsd:string .
+
+bgevo:VT120 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL58 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT120"^^xsd:string ;
+    bgevo:virtueName "Obedient Action"^^xsd:string .
+
+bgevo:VT122 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL21 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT122"^^xsd:string ;
+    bgevo:virtueName "Observation"^^xsd:string .
+
+bgevo:VT124 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL27 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT124"^^xsd:string ;
+    bgevo:virtueName "Peace"^^xsd:string .
+
+bgevo:VT126 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL23 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT126"^^xsd:string ;
+    bgevo:virtueName "Perfection Seeking"^^xsd:string .
+
+bgevo:VT128 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL33 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT128"^^xsd:string ;
+    bgevo:virtueName "Persistence"^^xsd:string .
+
+bgevo:VT129 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL19 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT129"^^xsd:string ;
+    bgevo:virtueName "Perspective"^^xsd:string .
+
+bgevo:VT130 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL5 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT130"^^xsd:string ;
+    bgevo:virtueName "Philosophical Understanding"^^xsd:string .
+
+bgevo:VT132 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL37 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT132"^^xsd:string ;
+    bgevo:virtueName "Professional Integrity"^^xsd:string .
+
+bgevo:VT133 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL22 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT133"^^xsd:string ;
+    bgevo:virtueName "Pure Devotion"^^xsd:string .
+
+bgevo:VT134 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL13 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT134"^^xsd:string ;
+    bgevo:virtueName "Pure Worship"^^xsd:string .
+
+bgevo:VT137 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL18 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT137"^^xsd:string ;
+    bgevo:virtueName "Purity of Intention"^^xsd:string .
+
+bgevo:VT138 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL35 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT138"^^xsd:string ;
+    bgevo:virtueName "Purposefulness"^^xsd:string .
+
+bgevo:VT141 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL17 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT141"^^xsd:string ;
+    bgevo:virtueName "Recognition"^^xsd:string .
+
+bgevo:VT143 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL19 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT143"^^xsd:string ;
+    bgevo:virtueName "Reliance on the Divine"^^xsd:string .
+
+bgevo:VT149 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL34 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT149"^^xsd:string ;
+    bgevo:virtueName "Respect for Teachers"^^xsd:string .
+
+bgevo:VT150 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL32 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT150"^^xsd:string ;
+    bgevo:virtueName "Respect for Wisdom"^^xsd:string .
+
+bgevo:VT153 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL11 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT153"^^xsd:string ;
+    bgevo:virtueName "Reverence for Teachers"^^xsd:string .
+
+bgevo:VT157 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL23 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT157"^^xsd:string ;
+    bgevo:virtueName "Sacred Awareness"^^xsd:string .
+
+bgevo:VT158 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL13 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT158"^^xsd:string ;
+    bgevo:virtueName "Sacred Remembrance"^^xsd:string .
+
+bgevo:VT160 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL9 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT160"^^xsd:string ;
+    bgevo:virtueName "Sattvic Renunciation"^^xsd:string .
+
+bgevo:VT161 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL5 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT161"^^xsd:string ;
+    bgevo:virtueName "Scriptural Obedience"^^xsd:string .
+
+bgevo:VT162 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL7 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT162"^^xsd:string ;
+    bgevo:virtueName "Scriptural Study"^^xsd:string .
+
+bgevo:VT165 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL27 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT165"^^xsd:string ;
+    bgevo:virtueName "Self-Discipline"^^xsd:string .
+
+bgevo:VT166 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL5 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT166"^^xsd:string ;
+    bgevo:virtueName "Self-Elevation"^^xsd:string .
+
+bgevo:VT167 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL1 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT167"^^xsd:string ;
+    bgevo:virtueName "Self-Inquiry"^^xsd:string .
+
+bgevo:VT168 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL13 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT168"^^xsd:string ;
+    bgevo:virtueName "Self-Knowledge"^^xsd:string .
+
+bgevo:VT169 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL1 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT169"^^xsd:string ;
+    bgevo:virtueName "Selfless Action"^^xsd:string .
+
+bgevo:VT170 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL19 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT170"^^xsd:string ;
+    bgevo:virtueName "Selfless Service"^^xsd:string .
+
+bgevo:VT176 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL17 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT176"^^xsd:string ;
+    bgevo:virtueName "Self-Sufficiency"^^xsd:string .
+
+bgevo:VT178 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL30 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT178"^^xsd:string ;
+    bgevo:virtueName "Sense Restraint"^^xsd:string .
+
+bgevo:VT182 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL17 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT182"^^xsd:string ;
+    bgevo:virtueName "Sincerity"^^xsd:string .
+
+bgevo:VT184 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL8 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT184"^^xsd:string ;
+    bgevo:virtueName "Social Responsibility"^^xsd:string .
+
+bgevo:VT185 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL10 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT185"^^xsd:string ;
+    bgevo:virtueName "Solitude"^^xsd:string .
+
+bgevo:VT187 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL9 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT187"^^xsd:string ;
+    bgevo:virtueName "Spiritual Association"^^xsd:string .
+
+bgevo:VT189 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL21 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT189"^^xsd:string ;
+    bgevo:virtueName "Spiritual Bliss"^^xsd:string .
+
+bgevo:VT190 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL24 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT190"^^xsd:string ;
+    bgevo:virtueName "Spiritual Commitment"^^xsd:string .
+
+bgevo:VT192 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH9_FL25 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT192"^^xsd:string ;
+    bgevo:virtueName "Spiritual Equality"^^xsd:string .
+
+bgevo:VT193 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL10 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT193"^^xsd:string ;
+    bgevo:virtueName "Spiritual Focus"^^xsd:string .
+
+bgevo:VT197 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL5 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT197"^^xsd:string ;
+    bgevo:virtueName "Spiritual Integration"^^xsd:string .
+
+bgevo:VT199 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL32 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT199"^^xsd:string ;
+    bgevo:virtueName "Spiritual Realization"^^xsd:string .
+
+bgevo:VT201 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL24 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT201"^^xsd:string ;
+    bgevo:virtueName "Spiritual Understanding"^^xsd:string .
+
+bgevo:VT202 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL12 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT202"^^xsd:string ;
+    bgevo:virtueName "Spiritual Vision"^^xsd:string .
+
+bgevo:VT203 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL22 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT203"^^xsd:string ;
+    bgevo:virtueName "Stability"^^xsd:string .
+
+bgevo:VT204 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL27 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT204"^^xsd:string ;
+    bgevo:virtueName "Steadfast Devotion"^^xsd:string .
+
+bgevo:VT206 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL17 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT206"^^xsd:string ;
+    bgevo:virtueName "Steady Consciousness"^^xsd:string .
+
+bgevo:VT207 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL18 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT207"^^xsd:string ;
+    bgevo:virtueName "Steady Devotion"^^xsd:string .
+
+bgevo:VT208 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL22 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT208"^^xsd:string ;
+    bgevo:virtueName "Steady Intelligence"^^xsd:string .
+
+bgevo:VT209 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL11 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT209"^^xsd:string ;
+    bgevo:virtueName "Strength with Purity"^^xsd:string .
+
+bgevo:VT210 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL40 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT210"^^xsd:string ;
+    bgevo:virtueName "Supreme Devotion"^^xsd:string .
+
+bgevo:VT213 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL20 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT213"^^xsd:string ;
+    bgevo:virtueName "Transcendence"^^xsd:string .
+
+bgevo:VT214 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL34 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT214"^^xsd:string ;
+    bgevo:virtueName "Transcendental Understanding"^^xsd:string .
+
+bgevo:VT217 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL30 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT217"^^xsd:string ;
+    bgevo:virtueName "Trust in the Divine"^^xsd:string .
+
+bgevo:VT218 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL25 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT218"^^xsd:string ;
+    bgevo:virtueName "Truth Recognition"^^xsd:string .
+
+bgevo:VT222 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL31 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT222"^^xsd:string ;
+    bgevo:virtueName "Unity Consciousness"^^xsd:string .
+
+bgevo:VT223 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL15 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT223"^^xsd:string ;
+    bgevo:virtueName "Unity Vision"^^xsd:string .
+
+bgevo:VT226 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH8_FL14 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT226"^^xsd:string ;
+    bgevo:virtueName "Unwavering Devotion"^^xsd:string .
+
+bgevo:VT229 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL38 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT229"^^xsd:string ;
+    bgevo:virtueName "Work as Worship"^^xsd:string .
+
+bgevo:VT230 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL25 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT230"^^xsd:string ;
+    bgevo:virtueName "Worship"^^xsd:string .
+
+bgevo:hasVice a owl:ObjectProperty ;
+    rdfs:label "has vice" ;
+    rdfs:domain bglo:FineGrainedLaw ;
+    rdfs:range bgevo:Vice ;
+    owl:inverseOf bgevo:isViceOfLaw .
+
+bgevo:hasVirtue a owl:ObjectProperty ;
+    rdfs:label "has virtue" ;
+    rdfs:domain bglo:FineGrainedLaw ;
+    rdfs:range bgevo:Virtue ;
+    owl:inverseOf bgevo:isVirtueOfLaw .
+
+bgevo:isViceOfLaw a owl:ObjectProperty ;
+    rdfs:label "is vice of law" ;
+    rdfs:domain bgevo:Vice ;
+    rdfs:range bglo:FineGrainedLaw ;
+    owl:inverseOf bgevo:hasVice .
+
+bgevo:isVirtueOfLaw a owl:ObjectProperty ;
+    rdfs:label "is virtue of law" ;
+    rdfs:domain bgevo:Virtue ;
+    rdfs:range bglo:FineGrainedLaw ;
+    owl:inverseOf bgevo:hasVirtue .
+
+bglo:CH15_FL22 bgevo:hasVirtue bgevo:VT106 .
+
+bglo:CH18_FL45 bgevo:hasVirtue bgevo:VT047 .
+
+bglo:CH9_FL34 bgevo:hasVirtue bgevo:VT106 .
+
+bgevo:VC005 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL12,
+        bglo:CH5_FL24 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC005"^^xsd:string ;
+    bgevo:viceName "Anger"^^xsd:string .
+
+bgevo:VC006 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH1_FL9,
+        bglo:CH5_FL12 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC006"^^xsd:string ;
+    bgevo:viceName "Anxiety"^^xsd:string .
+
+bgevo:VC008 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL8,
+        bglo:CH4_FL34 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC008"^^xsd:string ;
+    bgevo:viceName "Arrogance"^^xsd:string .
+
+bgevo:VC016 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL20,
+        bglo:CH4_FL23 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC016"^^xsd:string ;
+    bgevo:viceName "Bondage"^^xsd:string .
+
+bgevo:VC049 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL3,
+        bglo:CH2_FL18 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC049"^^xsd:string ;
+    bgevo:viceName "Duty Avoidance"^^xsd:string .
+
+bgevo:VC053 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL6,
+        bglo:CH6_FL8 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC053"^^xsd:string ;
+    bgevo:viceName "Emotional Instability"^^xsd:string .
+
+bgevo:VC057 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL9,
+        bglo:CH6_FL16 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC057"^^xsd:string ;
+    bgevo:viceName "Excessiveness"^^xsd:string .
+
+bgevo:VC064 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL27,
+        bglo:CH5_FL13 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC064"^^xsd:string ;
+    bgevo:viceName "False Ego"^^xsd:string .
+
+bgevo:VC065 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL7,
+        bglo:CH18_FL48 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC065"^^xsd:string ;
+    bgevo:viceName "False Independence"^^xsd:string .
+
+bgevo:VC068 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL11,
+        bglo:CH17_FL15 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC068"^^xsd:string ;
+    bgevo:viceName "Falsehood"^^xsd:string .
+
+bgevo:VC079 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL12,
+        bglo:CH3_FL7 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC079"^^xsd:string ;
+    bgevo:viceName "Fruitive Desire"^^xsd:string .
+
+bgevo:VC081 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH1_FL1,
+        bglo:CH2_FL1 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC081"^^xsd:string ;
+    bgevo:viceName "Grief"^^xsd:string .
+
+bgevo:VC082 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL17,
+        bglo:CH3_FL29 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC082"^^xsd:string ;
+    bgevo:viceName "Harshness"^^xsd:string .
+
+bgevo:VC084 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL38,
+        bglo:CH9_FL33 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC084"^^xsd:string ;
+    bgevo:viceName "Hopelessness"^^xsd:string .
+
+bgevo:VC094 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL10,
+        bglo:CH6_FL25 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC094"^^xsd:string ;
+    bgevo:viceName "Impatience"^^xsd:string .
+
+bgevo:VC106 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL30,
+        bglo:CH9_FL19 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC106"^^xsd:string ;
+    bgevo:viceName "Insecurity"^^xsd:string .
+
+bgevo:VC110 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL9,
+        bglo:CH9_FL23 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC110"^^xsd:string ;
+    bgevo:viceName "Intolerance"^^xsd:string .
+
+bgevo:VC118 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL12,
+        bglo:CH8_FL8 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC118"^^xsd:string ;
+    bgevo:viceName "Lack of Concentration"^^xsd:string .
+
+bgevo:VC123 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL15,
+        bglo:CH5_FL27 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC123"^^xsd:string ;
+    bgevo:viceName "Lack of Discipline"^^xsd:string .
+
+bgevo:VC148 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL33,
+        bglo:CH7_FL29 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC148"^^xsd:string ;
+    bgevo:viceName "Material Bondage"^^xsd:string .
+
+bgevo:VC153 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL12,
+        bglo:CH7_FL20 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC153"^^xsd:string ;
+    bgevo:viceName "Material Desire"^^xsd:string .
+
+bgevo:VC164 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL8,
+        bglo:CH2_FL21 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC164"^^xsd:string ;
+    bgevo:viceName "Mental Distraction"^^xsd:string .
+
+bgevo:VC167 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL24,
+        bglo:CH5_FL17 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC167"^^xsd:string ;
+    bgevo:viceName "Mental Instability"^^xsd:string .
+
+bgevo:VC185 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH1_FL7,
+        bglo:CH6_FL9 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC185"^^xsd:string ;
+    bgevo:viceName "Partiality"^^xsd:string .
+
+bgevo:VC189 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL16,
+        bglo:CH4_FL21 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC189"^^xsd:string ;
+    bgevo:viceName "Possessiveness"^^xsd:string .
+
+bgevo:VC211 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL26,
+        bglo:CH4_FL26 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC211"^^xsd:string ;
+    bgevo:viceName "Sense Addiction"^^xsd:string .
+
+bgevo:VC212 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL9,
+        bglo:CH8_FL12 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC212"^^xsd:string ;
+    bgevo:viceName "Sense Attachment"^^xsd:string .
+
+bgevo:VC218 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL23,
+        bglo:CH9_FL21 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC218"^^xsd:string ;
+    bgevo:viceName "Short-Term Thinking"^^xsd:string .
+
+bgevo:VC220 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH4_FL11,
+        bglo:CH9_FL30 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC220"^^xsd:string ;
+    bgevo:viceName "Sinfulness"^^xsd:string .
+
+bgevo:VC226 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL2,
+        bglo:CH6_FL39 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC226"^^xsd:string ;
+    bgevo:viceName "Spiritual Apathy"^^xsd:string .
+
+bgevo:VC229 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL4,
+        bglo:CH15_FL6 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC229"^^xsd:string ;
+    bgevo:viceName "Spiritual Complacency"^^xsd:string .
+
+bgevo:VC235 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH6_FL14,
+        bglo:CH8_FL5 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC235"^^xsd:string ;
+    bgevo:viceName "Spiritual Neglect"^^xsd:string .
+
+bgevo:VC244 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL18,
+        bglo:CH16_FL20 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC244"^^xsd:string ;
+    bgevo:viceName "Unforgiving Nature"^^xsd:string .
+
+bgevo:VC246 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH3_FL34,
+        bglo:CH4_FL7 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC246"^^xsd:string ;
+    bgevo:viceName "Unrighteousness"^^xsd:string .
+
+bgevo:VC247 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH7_FL18,
+        bglo:CH8_FL14 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC247"^^xsd:string ;
+    bgevo:viceName "Unsteady Devotion"^^xsd:string .
+
+bgevo:VC254 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL31,
+        bglo:CH8_FL26 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC254"^^xsd:string ;
+    bgevo:viceName "Wrong Understanding"^^xsd:string .
+
+bgevo:VT005 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL33,
+        bglo:CH3_FL33 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT005"^^xsd:string ;
+    bgevo:virtueName "Authenticity"^^xsd:string .
+
+bgevo:VT010 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL2,
+        bglo:CH6_FL17 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT010"^^xsd:string ;
+    bgevo:virtueName "Balance"^^xsd:string .
+
+bgevo:VT012 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL4,
+        bglo:CH4_FL28 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT012"^^xsd:string ;
+    bgevo:virtueName "Charity"^^xsd:string .
+
+bgevo:VT024 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL14,
+        bglo:CH3_FL4 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT024"^^xsd:string ;
+    bgevo:virtueName "Cooperation"^^xsd:string .
+
+bgevo:VT032 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL19,
+        bglo:CH5_FL11 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT032"^^xsd:string ;
+    bgevo:virtueName "Detachment from Results"^^xsd:string .
+
+bgevo:VT049 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL19,
+        bglo:CH7_FL7 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT049"^^xsd:string ;
+    bgevo:virtueName "Divine Recognition"^^xsd:string .
+
+bgevo:VT052 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL21,
+        bglo:CH2_FL20 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT052"^^xsd:string ;
+    bgevo:virtueName "Emotional Balance"^^xsd:string .
+
+bgevo:VT054 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL18,
+        bglo:CH6_FL9 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT054"^^xsd:string ;
+    bgevo:virtueName "Equal Vision"^^xsd:string .
+
+bgevo:VT058 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL20,
+        bglo:CH18_FL36 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT058"^^xsd:string ;
+    bgevo:virtueName "Excellence"^^xsd:string .
+
+bgevo:VT064 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL18,
+        bglo:CH16_FL20 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT064"^^xsd:string ;
+    bgevo:virtueName "Forgiveness"^^xsd:string .
+
+bgevo:VT069 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL18,
+        bglo:CH2_FL33 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT069"^^xsd:string ;
+    bgevo:virtueName "Freedom from Delusion"^^xsd:string .
+
+bgevo:VT070 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH5_FL3,
+        bglo:CH7_FL27 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT070"^^xsd:string ;
+    bgevo:virtueName "Freedom from Duality"^^xsd:string .
+
+bgevo:VT078 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL21,
+        bglo:CH3_FL13 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT078"^^xsd:string ;
+    bgevo:virtueName "Generosity"^^xsd:string .
+
+bgevo:VT085 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL9,
+        bglo:CH1_FL1 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT085"^^xsd:string ;
+    bgevo:virtueName "Honesty"^^xsd:string .
+
+bgevo:VT086 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH6_FL38,
+        bglo:CH9_FL33 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT086"^^xsd:string ;
+    bgevo:virtueName "Hope"^^xsd:string .
+
+bgevo:VT093 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL24,
+        bglo:CH2_FL26 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT093"^^xsd:string ;
+    bgevo:virtueName "Inner Stability"^^xsd:string .
+
+bgevo:VT101 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL20,
+        bglo:CH3_FL9 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT101"^^xsd:string ;
+    bgevo:virtueName "Leadership"^^xsd:string .
+
+bgevo:VT104 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH7_FL23,
+        bglo:CH9_FL21 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT104"^^xsd:string ;
+    bgevo:virtueName "Long-Term Vision"^^xsd:string .
+
+bgevo:VT106 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL22,
+        bglo:CH9_FL34 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT106"^^xsd:string ;
+    bgevo:virtueName "Loving Devotion"^^xsd:string .
+
+bgevo:VT112 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL9,
+        bglo:CH6_FL16 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT112"^^xsd:string ;
+    bgevo:virtueName "Moderation"^^xsd:string .
+
+bgevo:VT118 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL8,
+        bglo:CH16_FL10 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT118"^^xsd:string ;
+    bgevo:virtueName "Non-Violence"^^xsd:string .
+
+bgevo:VT119 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL49,
+        bglo:CH4_FL15 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT119"^^xsd:string ;
+    bgevo:virtueName "Obedience"^^xsd:string .
+
+bgevo:VT121 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL22,
+        bglo:CH18_FL14 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT121"^^xsd:string ;
+    bgevo:virtueName "Objectivity"^^xsd:string .
+
+bgevo:VT123 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL10,
+        bglo:CH6_FL25 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT123"^^xsd:string ;
+    bgevo:virtueName "Patience"^^xsd:string .
+
+bgevo:VT125 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL12,
+        bglo:CH16_FL14 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT125"^^xsd:string ;
+    bgevo:virtueName "Peacefulness"^^xsd:string .
+
+bgevo:VT131 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL9,
+        bglo:CH6_FL35 ;
+    bgevo:virtueCategory "Behavioral"^^xsd:string ;
+    bgevo:virtueID "VT131"^^xsd:string ;
+    bgevo:virtueName "Practice"^^xsd:string .
+
+bgevo:VT140 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL10,
+        bglo:CH1_FL10 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT140"^^xsd:string ;
+    bgevo:virtueName "Receptivity to Guidance"^^xsd:string .
+
+bgevo:VT144 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL15,
+        bglo:CH8_FL4 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT144"^^xsd:string ;
+    bgevo:virtueName "Remembrance"^^xsd:string .
+
+bgevo:VT146 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL15,
+        bglo:CH9_FL30 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT146"^^xsd:string ;
+    bgevo:virtueName "Repentance"^^xsd:string .
+
+bgevo:VT154 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL23,
+        bglo:CH8_FL26 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT154"^^xsd:string ;
+    bgevo:virtueName "Right Understanding"^^xsd:string .
+
+bgevo:VT156 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL34,
+        bglo:CH4_FL7 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT156"^^xsd:string ;
+    bgevo:virtueName "Righteousness"^^xsd:string .
+
+bgevo:VT159 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL6,
+        bglo:CH4_FL24 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT159"^^xsd:string ;
+    bgevo:virtueName "Sacrifice"^^xsd:string .
+
+bgevo:VT174 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL22,
+        bglo:CH1_FL5 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT174"^^xsd:string ;
+    bgevo:virtueName "Self-Reflection"^^xsd:string .
+
+bgevo:VT175 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL30,
+        bglo:CH5_FL22 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT175"^^xsd:string ;
+    bgevo:virtueName "Self-Restraint"^^xsd:string .
+
+bgevo:VT179 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL10,
+        bglo:CH3_FL3 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT179"^^xsd:string ;
+    bgevo:virtueName "Service"^^xsd:string .
+
+bgevo:VT191 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL3,
+        bglo:CH8_FL2 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT191"^^xsd:string ;
+    bgevo:virtueName "Spiritual Curiosity"^^xsd:string .
+
+bgevo:VT195 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL23,
+        bglo:CH18_FL54 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT195"^^xsd:string ;
+    bgevo:virtueName "Spiritual Inquiry"^^xsd:string .
+
+bgevo:VT196 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH2_FL27,
+        bglo:CH4_FL18 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT196"^^xsd:string ;
+    bgevo:virtueName "Spiritual Insight"^^xsd:string .
+
+bgevo:VT198 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL25,
+        bglo:CH16_FL3 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT198"^^xsd:string ;
+    bgevo:virtueName "Spiritual Knowledge"^^xsd:string .
+
+bgevo:VT215 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL11,
+        bglo:CH9_FL31 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT215"^^xsd:string ;
+    bgevo:virtueName "Transformation"^^xsd:string .
+
+bgevo:VT220 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL11,
+        bglo:CH17_FL15 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT220"^^xsd:string ;
+    bgevo:virtueName "Truthfulness"^^xsd:string .
+
+bgevo:VT228 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL14,
+        bglo:CH11_FL9 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT228"^^xsd:string ;
+    bgevo:virtueName "Wonder"^^xsd:string .
+
+bglo:CH10_FL1 bgevo:hasVice bgevo:VC018 ;
+    bgevo:hasVirtue bgevo:VT139 .
+
+bglo:CH10_FL10 bgevo:hasVice bgevo:VC197 ;
+    bgevo:hasVirtue bgevo:VT140 .
+
+bglo:CH10_FL11 bgevo:hasVice bgevo:VC209 ;
+    bgevo:hasVirtue bgevo:VT045 .
+
+bglo:CH10_FL12 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH10_FL13 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH10_FL14 bgevo:hasVice bgevo:VC099 ;
+    bgevo:hasVirtue bgevo:VT228 .
+
+bglo:CH10_FL15 bgevo:hasVice bgevo:VC120 ;
+    bgevo:hasVirtue bgevo:VT028 .
+
+bglo:CH10_FL16 bgevo:hasVice bgevo:VC007 ;
+    bgevo:hasVirtue bgevo:VT094 .
+
+bglo:CH10_FL17 bgevo:hasVice bgevo:VC115 ;
+    bgevo:hasVirtue bgevo:VT002 .
+
+bglo:CH10_FL18 bgevo:hasVice bgevo:VC230 ;
+    bgevo:hasVirtue bgevo:VT037 .
+
+bglo:CH10_FL19 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH10_FL2 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH10_FL20 bgevo:hasVice bgevo:VC242 ;
+    bgevo:hasVirtue bgevo:VT007 .
+
+bglo:CH10_FL21 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT147 .
+
+bglo:CH10_FL3 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH10_FL4 bgevo:hasVice bgevo:VC122 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH10_FL5 bgevo:hasVice bgevo:VC173 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH10_FL6 bgevo:hasVice bgevo:VC227 ;
+    bgevo:hasVirtue bgevo:VT188 .
+
+bglo:CH10_FL7 bgevo:hasVice bgevo:VC124 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH10_FL8 bgevo:hasVice bgevo:VC002 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH10_FL9 bgevo:hasVice bgevo:VC113 ;
+    bgevo:hasVirtue bgevo:VT187 .
+
+bglo:CH11_FL1 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH11_FL10 bgevo:hasVice bgevo:VC227 ;
+    bgevo:hasVirtue bgevo:VT009 .
+
+bglo:CH11_FL11 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH11_FL12 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT026 .
+
+bglo:CH11_FL13 bgevo:hasVice bgevo:VC193 ;
+    bgevo:hasVirtue bgevo:VT001 .
+
+bglo:CH11_FL14 bgevo:hasVice bgevo:VC043 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH11_FL15 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT146 .
+
+bglo:CH11_FL16 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH11_FL17 bgevo:hasVice bgevo:VC069 ;
+    bgevo:hasVirtue bgevo:VT147 .
+
+bglo:CH11_FL18 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH11_FL19 bgevo:hasVice bgevo:VC203 ;
+    bgevo:hasVirtue bgevo:VT107 .
+
+bglo:CH11_FL2 bgevo:hasVice bgevo:VC018 ;
+    bgevo:hasVirtue bgevo:VT139 .
+
+bglo:CH11_FL20 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT042 .
+
+bglo:CH11_FL3 bgevo:hasVice bgevo:VC126 ;
+    bgevo:hasVirtue bgevo:VT191 .
+
+bglo:CH11_FL4 bgevo:hasVice bgevo:VC229 ;
+    bgevo:hasVirtue bgevo:VT002 .
+
+bglo:CH11_FL5 bgevo:hasVice bgevo:VC209 ;
+    bgevo:hasVirtue bgevo:VT044 .
+
+bglo:CH11_FL6 bgevo:hasVice bgevo:VC112 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH11_FL7 bgevo:hasVice bgevo:VC140 ;
+    bgevo:hasVirtue bgevo:VT225 .
+
+bglo:CH11_FL8 bgevo:hasVice bgevo:VC008 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH11_FL9 bgevo:hasVice bgevo:VC099 ;
+    bgevo:hasVirtue bgevo:VT228 .
+
+bglo:CH12_FL1 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH12_FL10 bgevo:hasVice bgevo:VC203 ;
+    bgevo:hasVirtue bgevo:VT179 .
+
+bglo:CH12_FL11 bgevo:hasVice bgevo:VC013 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH12_FL12 bgevo:hasVice bgevo:VC200 ;
+    bgevo:hasVirtue bgevo:VT125 .
+
+bglo:CH12_FL13 bgevo:hasVice bgevo:VC083 ;
+    bgevo:hasVirtue bgevo:VT117 .
+
+bglo:CH12_FL14 bgevo:hasVice bgevo:VC085 ;
+    bgevo:hasVirtue bgevo:VT077 .
+
+bglo:CH12_FL15 bgevo:hasVice bgevo:VC025 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH12_FL16 bgevo:hasVice bgevo:VC189 ;
+    bgevo:hasVirtue bgevo:VT075 .
+
+bglo:CH12_FL17 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH12_FL18 bgevo:hasVice bgevo:VC244 ;
+    bgevo:hasVirtue bgevo:VT064 .
+
+bglo:CH12_FL19 bgevo:hasVice bgevo:VC041 ;
+    bgevo:hasVirtue bgevo:VT022 .
+
+bglo:CH12_FL2 bgevo:hasVice bgevo:VC124 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH12_FL20 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH12_FL3 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH12_FL4 bgevo:hasVice bgevo:VC033 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH12_FL5 bgevo:hasVice bgevo:VC250 ;
+    bgevo:hasVirtue bgevo:VT033 .
+
+bglo:CH12_FL6 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH12_FL7 bgevo:hasVice bgevo:VC043 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH12_FL8 bgevo:hasVice bgevo:VC164 ;
+    bgevo:hasVirtue bgevo:VT018 .
+
+bglo:CH12_FL9 bgevo:hasVice bgevo:VC180 ;
+    bgevo:hasVirtue bgevo:VT131 .
+
+bglo:CH13_FL1 bgevo:hasVice bgevo:VC204 ;
+    bgevo:hasVirtue bgevo:VT167 .
+
+bglo:CH13_FL10 bgevo:hasVice bgevo:VC009 ;
+    bgevo:hasVirtue bgevo:VT181 .
+
+bglo:CH13_FL11 bgevo:hasVice bgevo:VC040 ;
+    bgevo:hasVirtue bgevo:VT153 .
+
+bglo:CH13_FL12 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH13_FL13 bgevo:hasVice bgevo:VC108 ;
+    bgevo:hasVirtue bgevo:VT205 .
+
+bglo:CH13_FL14 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH13_FL15 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH13_FL16 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT071 .
+
+bglo:CH13_FL17 bgevo:hasVice bgevo:VC076 ;
+    bgevo:hasVirtue bgevo:VT008 .
+
+bglo:CH13_FL18 bgevo:hasVice bgevo:VC147 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH13_FL19 bgevo:hasVice bgevo:VC054 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH13_FL2 bgevo:hasVice bgevo:VC133 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH13_FL20 bgevo:hasVice bgevo:VC044 ;
+    bgevo:hasVirtue bgevo:VT059 .
+
+bglo:CH13_FL21 bgevo:hasVice bgevo:VC222 ;
+    bgevo:hasVirtue bgevo:VT105 .
+
+bglo:CH13_FL22 bgevo:hasVice bgevo:VC131 ;
+    bgevo:hasVirtue bgevo:VT174 .
+
+bglo:CH13_FL23 bgevo:hasVice bgevo:VC126 ;
+    bgevo:hasVirtue bgevo:VT195 .
+
+bglo:CH13_FL24 bgevo:hasVice bgevo:VC033 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH13_FL25 bgevo:hasVice bgevo:VC232 ;
+    bgevo:hasVirtue bgevo:VT198 .
+
+bglo:CH13_FL26 bgevo:hasVice bgevo:VC127 ;
+    bgevo:hasVirtue bgevo:VT095 .
+
+bglo:CH13_FL27 bgevo:hasVice bgevo:VC227 ;
+    bgevo:hasVirtue bgevo:VT042 .
+
+bglo:CH13_FL28 bgevo:hasVice bgevo:VC178 ;
+    bgevo:hasVirtue bgevo:VT225 .
+
+bglo:CH13_FL29 bgevo:hasVice bgevo:VC034 ;
+    bgevo:hasVirtue bgevo:VT055 .
+
+bglo:CH13_FL3 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH13_FL30 bgevo:hasVice bgevo:VC046 ;
+    bgevo:hasVirtue bgevo:VT116 .
+
+bglo:CH13_FL31 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH13_FL32 bgevo:hasVice bgevo:VC130 ;
+    bgevo:hasVirtue bgevo:VT199 .
+
+bglo:CH13_FL33 bgevo:hasVice bgevo:VC148 ;
+    bgevo:hasVirtue bgevo:VT103 .
+
+bglo:CH13_FL34 bgevo:hasVice bgevo:VC159 ;
+    bgevo:hasVirtue bgevo:VT214 .
+
+bglo:CH13_FL4 bgevo:hasVice bgevo:VC122 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH13_FL5 bgevo:hasVice bgevo:VC186 ;
+    bgevo:hasVirtue bgevo:VT130 .
+
+bglo:CH13_FL6 bgevo:hasVice bgevo:VC073 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH13_FL7 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH13_FL8 bgevo:hasVice bgevo:VC248 ;
+    bgevo:hasVirtue bgevo:VT118 .
+
+bglo:CH13_FL9 bgevo:hasVice bgevo:VC110 ;
+    bgevo:hasVirtue bgevo:VT212 .
+
+bglo:CH14_FL1 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH14_FL10 bgevo:hasVice bgevo:VC122 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH14_FL11 bgevo:hasVice bgevo:VC242 ;
+    bgevo:hasVirtue bgevo:VT007 .
+
+bglo:CH14_FL12 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH14_FL13 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH14_FL14 bgevo:hasVice bgevo:VC241 ;
+    bgevo:hasVirtue bgevo:VT081 .
+
+bglo:CH14_FL15 bgevo:hasVice bgevo:VC111 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH14_FL16 bgevo:hasVice bgevo:VC073 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH14_FL17 bgevo:hasVice bgevo:VC147 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH14_FL18 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT069 .
+
+bglo:CH14_FL19 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH14_FL2 bgevo:hasVice bgevo:VC226 ;
+    bgevo:hasVirtue bgevo:VT186 .
+
+bglo:CH14_FL20 bgevo:hasVice bgevo:VC016 ;
+    bgevo:hasVirtue bgevo:VT103 .
+
+bglo:CH14_FL21 bgevo:hasVice bgevo:VC017 ;
+    bgevo:hasVirtue bgevo:VT122 .
+
+bglo:CH14_FL22 bgevo:hasVice bgevo:VC239 ;
+    bgevo:hasVirtue bgevo:VT121 .
+
+bglo:CH14_FL23 bgevo:hasVice bgevo:VC054 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH14_FL24 bgevo:hasVice bgevo:VC167 ;
+    bgevo:hasVirtue bgevo:VT093 .
+
+bglo:CH14_FL25 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT115 .
+
+bglo:CH14_FL26 bgevo:hasVice bgevo:VC034 ;
+    bgevo:hasVirtue bgevo:VT055 .
+
+bglo:CH14_FL27 bgevo:hasVice bgevo:VC252 ;
+    bgevo:hasVirtue bgevo:VT172 .
+
+bglo:CH14_FL28 bgevo:hasVice bgevo:VC200 ;
+    bgevo:hasVirtue bgevo:VT205 .
+
+bglo:CH14_FL29 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT076 .
+
+bglo:CH14_FL3 bgevo:hasVice bgevo:VC155 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH14_FL4 bgevo:hasVice bgevo:VC137 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH14_FL5 bgevo:hasVice bgevo:VC204 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH14_FL6 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH14_FL7 bgevo:hasVice bgevo:VC041 ;
+    bgevo:hasVirtue bgevo:VT022 .
+
+bglo:CH14_FL8 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT013 .
+
+bglo:CH14_FL9 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH15_FL1 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH15_FL10 bgevo:hasVice bgevo:VC071 ;
+    bgevo:hasVirtue bgevo:VT001 .
+
+bglo:CH15_FL11 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH15_FL12 bgevo:hasVice bgevo:VC227 ;
+    bgevo:hasVirtue bgevo:VT202 .
+
+bglo:CH15_FL13 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH15_FL14 bgevo:hasVice bgevo:VC112 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH15_FL15 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT144 .
+
+bglo:CH15_FL16 bgevo:hasVice bgevo:VC138 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH15_FL17 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH15_FL18 bgevo:hasVice bgevo:VC122 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH15_FL19 bgevo:hasVice bgevo:VC062 ;
+    bgevo:hasVirtue bgevo:VT049 .
+
+bglo:CH15_FL2 bgevo:hasVice bgevo:VC154 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH15_FL20 bgevo:hasVice bgevo:VC204 ;
+    bgevo:hasVirtue bgevo:VT173 .
+
+bglo:CH15_FL21 bgevo:hasVice bgevo:VC127 ;
+    bgevo:hasVirtue bgevo:VT095 .
+
+bglo:CH15_FL23 bgevo:hasVice bgevo:VC233 ;
+    bgevo:hasVirtue bgevo:VT126 .
+
+bglo:CH15_FL3 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH15_FL4 bgevo:hasVice bgevo:VC199 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH15_FL5 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH15_FL6 bgevo:hasVice bgevo:VC229 ;
+    bgevo:hasVirtue bgevo:VT186 .
+
+bglo:CH15_FL7 bgevo:hasVice bgevo:VC065 ;
+    bgevo:hasVirtue bgevo:VT044 .
+
+bglo:CH15_FL8 bgevo:hasVice bgevo:VC087 ;
+    bgevo:hasVirtue bgevo:VT088 .
+
+bglo:CH15_FL9 bgevo:hasVice bgevo:VC173 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH16_FL1 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT063 .
+
+bglo:CH16_FL10 bgevo:hasVice bgevo:VC248 ;
+    bgevo:hasVirtue bgevo:VT118 .
+
+bglo:CH16_FL11 bgevo:hasVice bgevo:VC068 ;
+    bgevo:hasVirtue bgevo:VT220 .
+
+bglo:CH16_FL12 bgevo:hasVice bgevo:VC005 ;
+    bgevo:hasVirtue bgevo:VT066 .
+
+bglo:CH16_FL13 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH16_FL14 bgevo:hasVice bgevo:VC200 ;
+    bgevo:hasVirtue bgevo:VT125 .
+
+bglo:CH16_FL15 bgevo:hasVice bgevo:VC025 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH16_FL16 bgevo:hasVice bgevo:VC080 ;
+    bgevo:hasVirtue bgevo:VT072 .
+
+bglo:CH16_FL17 bgevo:hasVice bgevo:VC082 ;
+    bgevo:hasVirtue bgevo:VT079 .
+
+bglo:CH16_FL18 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT113 .
+
+bglo:CH16_FL19 bgevo:hasVice bgevo:VC108 ;
+    bgevo:hasVirtue bgevo:VT205 .
+
+bglo:CH16_FL2 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH16_FL20 bgevo:hasVice bgevo:VC244 ;
+    bgevo:hasVirtue bgevo:VT064 .
+
+bglo:CH16_FL21 bgevo:hasVice bgevo:VC252 ;
+    bgevo:hasVirtue bgevo:VT065 .
+
+bglo:CH16_FL3 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT198 .
+
+bglo:CH16_FL4 bgevo:hasVice bgevo:VC170 ;
+    bgevo:hasVirtue bgevo:VT012 .
+
+bglo:CH16_FL5 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH16_FL6 bgevo:hasVice bgevo:VC205 ;
+    bgevo:hasVirtue bgevo:VT159 .
+
+bglo:CH16_FL7 bgevo:hasVice bgevo:VC181 ;
+    bgevo:hasVirtue bgevo:VT162 .
+
+bglo:CH16_FL8 bgevo:hasVice bgevo:VC142 ;
+    bgevo:hasVirtue bgevo:VT003 .
+
+bglo:CH16_FL9 bgevo:hasVice bgevo:VC035 ;
+    bgevo:hasVirtue bgevo:VT085 .
+
+bglo:CH17_FL1 bgevo:hasVice bgevo:VC063 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH17_FL10 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH17_FL11 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH17_FL12 bgevo:hasVice bgevo:VC207 ;
+    bgevo:hasVirtue bgevo:VT171 .
+
+bglo:CH17_FL13 bgevo:hasVice bgevo:VC112 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH17_FL14 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH17_FL15 bgevo:hasVice bgevo:VC068 ;
+    bgevo:hasVirtue bgevo:VT220 .
+
+bglo:CH17_FL16 bgevo:hasVice bgevo:VC166 ;
+    bgevo:hasVirtue bgevo:VT110 .
+
+bglo:CH17_FL17 bgevo:hasVice bgevo:VC086 ;
+    bgevo:hasVirtue bgevo:VT182 .
+
+bglo:CH17_FL18 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH17_FL19 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH17_FL2 bgevo:hasVice bgevo:VC204 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH17_FL20 bgevo:hasVice bgevo:VC099 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH17_FL21 bgevo:hasVice bgevo:VC238 ;
+    bgevo:hasVirtue bgevo:VT078 .
+
+bglo:CH17_FL22 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT147 .
+
+bglo:CH17_FL23 bgevo:hasVice bgevo:VC231 ;
+    bgevo:hasVirtue bgevo:VT157 .
+
+bglo:CH17_FL24 bgevo:hasVice bgevo:VC116 ;
+    bgevo:hasVirtue bgevo:VT190 .
+
+bglo:CH17_FL25 bgevo:hasVice bgevo:VC078 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH17_FL3 bgevo:hasVice bgevo:VC187 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH17_FL4 bgevo:hasVice bgevo:VC171 ;
+    bgevo:hasVirtue bgevo:VT186 .
+
+bglo:CH17_FL5 bgevo:hasVice bgevo:VC037 ;
+    bgevo:hasVirtue bgevo:VT161 .
+
+bglo:CH17_FL6 bgevo:hasVice bgevo:VC073 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH17_FL7 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH17_FL8 bgevo:hasVice bgevo:VC245 ;
+    bgevo:hasVirtue bgevo:VT083 .
+
+bglo:CH17_FL9 bgevo:hasVice bgevo:VC057 ;
+    bgevo:hasVirtue bgevo:VT112 .
+
+bglo:CH18_FL1 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH18_FL10 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT068 .
+
+bglo:CH18_FL11 bgevo:hasVice bgevo:VC066 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH18_FL12 bgevo:hasVice bgevo:VC079 ;
+    bgevo:hasVirtue bgevo:VT116 .
+
+bglo:CH18_FL13 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT168 .
+
+bglo:CH18_FL14 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT121 .
+
+bglo:CH18_FL15 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT223 .
+
+bglo:CH18_FL16 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH18_FL17 bgevo:hasVice bgevo:VC046 ;
+    bgevo:hasVirtue bgevo:VT030 .
+
+bglo:CH18_FL18 bgevo:hasVice bgevo:VC206 ;
+    bgevo:hasVirtue bgevo:VT137 .
+
+bglo:CH18_FL19 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT013 .
+
+bglo:CH18_FL2 bgevo:hasVice bgevo:VC031 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH18_FL20 bgevo:hasVice bgevo:VC156 ;
+    bgevo:hasVirtue bgevo:VT058 .
+
+bglo:CH18_FL21 bgevo:hasVice bgevo:VC077 ;
+    bgevo:hasVirtue bgevo:VT052 .
+
+bglo:CH18_FL22 bgevo:hasVice bgevo:VC067 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH18_FL23 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT154 .
+
+bglo:CH18_FL24 bgevo:hasVice bgevo:VC080 ;
+    bgevo:hasVirtue bgevo:VT080 .
+
+bglo:CH18_FL25 bgevo:hasVice bgevo:VC248 ;
+    bgevo:hasVirtue bgevo:VT218 .
+
+bglo:CH18_FL26 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT172 .
+
+bglo:CH18_FL27 bgevo:hasVice bgevo:VC014 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH18_FL28 bgevo:hasVice bgevo:VC139 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH18_FL29 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH18_FL3 bgevo:hasVice bgevo:VC049 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH18_FL30 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH18_FL31 bgevo:hasVice bgevo:VC254 ;
+    bgevo:hasVirtue bgevo:VT006 .
+
+bglo:CH18_FL32 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH18_FL33 bgevo:hasVice bgevo:VC250 ;
+    bgevo:hasVirtue bgevo:VT005 .
+
+bglo:CH18_FL34 bgevo:hasVice bgevo:VC050 ;
+    bgevo:hasVirtue bgevo:VT051 .
+
+bglo:CH18_FL35 bgevo:hasVice bgevo:VC004 ;
+    bgevo:hasVirtue bgevo:VT138 .
+
+bglo:CH18_FL36 bgevo:hasVice bgevo:VC157 ;
+    bgevo:hasVirtue bgevo:VT058 .
+
+bglo:CH18_FL37 bgevo:hasVice bgevo:VC003 ;
+    bgevo:hasVirtue bgevo:VT132 .
+
+bglo:CH18_FL38 bgevo:hasVice bgevo:VC161 ;
+    bgevo:hasVirtue bgevo:VT229 .
+
+bglo:CH18_FL39 bgevo:hasVice bgevo:VC237 ;
+    bgevo:hasVirtue bgevo:VT004 .
+
+bglo:CH18_FL4 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT171 .
+
+bglo:CH18_FL40 bgevo:hasVice bgevo:VC198 ;
+    bgevo:hasVirtue bgevo:VT001 .
+
+bglo:CH18_FL41 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH18_FL42 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH18_FL43 bgevo:hasVice bgevo:VC054 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH18_FL44 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH18_FL46 bgevo:hasVice bgevo:VC199 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH18_FL47 bgevo:hasVice bgevo:VC043 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH18_FL48 bgevo:hasVice bgevo:VC065 ;
+    bgevo:hasVirtue bgevo:VT044 .
+
+bglo:CH18_FL49 bgevo:hasVice bgevo:VC037 ;
+    bgevo:hasVirtue bgevo:VT119 .
+
+bglo:CH18_FL5 bgevo:hasVice bgevo:VC183 ;
+    bgevo:hasVirtue bgevo:VT135 .
+
+bglo:CH18_FL50 bgevo:hasVice bgevo:VC018 ;
+    bgevo:hasVirtue bgevo:VT139 .
+
+bglo:CH18_FL51 bgevo:hasVice bgevo:VC114 ;
+    bgevo:hasVirtue bgevo:VT100 .
+
+bglo:CH18_FL52 bgevo:hasVice bgevo:VC063 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH18_FL53 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT135 .
+
+bglo:CH18_FL54 bgevo:hasVice bgevo:VC126 ;
+    bgevo:hasVirtue bgevo:VT195 .
+
+bglo:CH18_FL55 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH18_FL56 bgevo:hasVice bgevo:VC119 ;
+    bgevo:hasVirtue bgevo:VT023 .
+
+bglo:CH18_FL57 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT046 .
+
+bglo:CH18_FL58 bgevo:hasVice bgevo:VC192 ;
+    bgevo:hasVirtue bgevo:VT120 .
+
+bglo:CH18_FL59 bgevo:hasVice bgevo:VC169 ;
+    bgevo:hasVirtue bgevo:VT041 .
+
+bglo:CH18_FL6 bgevo:hasVice bgevo:VC052 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH18_FL7 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH18_FL8 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT026 .
+
+bglo:CH18_FL9 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT160 .
+
+bglo:CH1_FL1 bgevo:hasVice bgevo:VC081 ;
+    bgevo:hasVirtue bgevo:VT085 .
+
+bglo:CH1_FL10 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT140 .
+
+bglo:CH1_FL2 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT114 .
+
+bglo:CH1_FL3 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH1_FL4 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH1_FL5 bgevo:hasVice bgevo:VC055 ;
+    bgevo:hasVirtue bgevo:VT174 .
+
+bglo:CH1_FL6 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH1_FL7 bgevo:hasVice bgevo:VC185 ;
+    bgevo:hasVirtue bgevo:VT057 .
+
+bglo:CH1_FL8 bgevo:hasVice bgevo:VC032 ;
+    bgevo:hasVirtue bgevo:VT051 .
+
+bglo:CH1_FL9 bgevo:hasVice bgevo:VC006 ;
+    bgevo:hasVirtue bgevo:VT026 .
+
+bglo:CH2_FL1 bgevo:hasVice bgevo:VC081 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH2_FL10 bgevo:hasVice bgevo:VC094 ;
+    bgevo:hasVirtue bgevo:VT123 .
+
+bglo:CH2_FL11 bgevo:hasVice bgevo:VC024 ;
+    bgevo:hasVirtue bgevo:VT026 .
+
+bglo:CH2_FL12 bgevo:hasVice bgevo:VC050 ;
+    bgevo:hasVirtue bgevo:VT051 .
+
+bglo:CH2_FL13 bgevo:hasVice bgevo:VC139 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH2_FL14 bgevo:hasVice bgevo:VC033 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH2_FL15 bgevo:hasVice bgevo:VC123 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH2_FL16 bgevo:hasVice bgevo:VC207 ;
+    bgevo:hasVirtue bgevo:VT171 .
+
+bglo:CH2_FL17 bgevo:hasVice bgevo:VC030 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH2_FL18 bgevo:hasVice bgevo:VC049 ;
+    bgevo:hasVirtue bgevo:VT015 .
+
+bglo:CH2_FL19 bgevo:hasVice bgevo:VC078 ;
+    bgevo:hasVirtue bgevo:VT032 .
+
+bglo:CH2_FL2 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT188 .
+
+bglo:CH2_FL20 bgevo:hasVice bgevo:VC054 ;
+    bgevo:hasVirtue bgevo:VT052 .
+
+bglo:CH2_FL21 bgevo:hasVice bgevo:VC164 ;
+    bgevo:hasVirtue bgevo:VT018 .
+
+bglo:CH2_FL22 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT208 .
+
+bglo:CH2_FL23 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH2_FL24 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT068 .
+
+bglo:CH2_FL25 bgevo:hasVice bgevo:VC214 ;
+    bgevo:hasVirtue bgevo:VT172 .
+
+bglo:CH2_FL26 bgevo:hasVice bgevo:VC200 ;
+    bgevo:hasVirtue bgevo:VT093 .
+
+bglo:CH2_FL27 bgevo:hasVice bgevo:VC155 ;
+    bgevo:hasVirtue bgevo:VT196 .
+
+bglo:CH2_FL28 bgevo:hasVice bgevo:VC048 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH2_FL29 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH2_FL3 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT063 .
+
+bglo:CH2_FL30 bgevo:hasVice bgevo:VC141 ;
+    bgevo:hasVirtue bgevo:VT178 .
+
+bglo:CH2_FL31 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT013 .
+
+bglo:CH2_FL32 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT007 .
+
+bglo:CH2_FL33 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT069 .
+
+bglo:CH2_FL34 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH2_FL35 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH2_FL36 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH2_FL37 bgevo:hasVice bgevo:VC073 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH2_FL38 bgevo:hasVice bgevo:VC172 ;
+    bgevo:hasVirtue bgevo:VT173 .
+
+bglo:CH2_FL4 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT001 .
+
+bglo:CH2_FL5 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH2_FL6 bgevo:hasVice bgevo:VC053 ;
+    bgevo:hasVirtue bgevo:VT205 .
+
+bglo:CH2_FL7 bgevo:hasVice bgevo:VC252 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH2_FL8 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH2_FL9 bgevo:hasVice bgevo:VC048 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH3_FL1 bgevo:hasVice bgevo:VC139 ;
+    bgevo:hasVirtue bgevo:VT038 .
+
+bglo:CH3_FL10 bgevo:hasVice bgevo:VC023 ;
+    bgevo:hasVirtue bgevo:VT096 .
+
+bglo:CH3_FL11 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH3_FL12 bgevo:hasVice bgevo:VC080 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH3_FL13 bgevo:hasVice bgevo:VC170 ;
+    bgevo:hasVirtue bgevo:VT078 .
+
+bglo:CH3_FL14 bgevo:hasVice bgevo:VC059 ;
+    bgevo:hasVirtue bgevo:VT024 .
+
+bglo:CH3_FL15 bgevo:hasVice bgevo:VC183 ;
+    bgevo:hasVirtue bgevo:VT051 .
+
+bglo:CH3_FL16 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH3_FL17 bgevo:hasVice bgevo:VC028 ;
+    bgevo:hasVirtue bgevo:VT176 .
+
+bglo:CH3_FL18 bgevo:hasVice bgevo:VC041 ;
+    bgevo:hasVirtue bgevo:VT022 .
+
+bglo:CH3_FL19 bgevo:hasVice bgevo:VC203 ;
+    bgevo:hasVirtue bgevo:VT170 .
+
+bglo:CH3_FL2 bgevo:hasVice bgevo:VC096 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH3_FL20 bgevo:hasVice bgevo:VC111 ;
+    bgevo:hasVirtue bgevo:VT101 .
+
+bglo:CH3_FL21 bgevo:hasVice bgevo:VC015 ;
+    bgevo:hasVirtue bgevo:VT060 .
+
+bglo:CH3_FL22 bgevo:hasVice bgevo:VC050 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH3_FL23 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH3_FL24 bgevo:hasVice bgevo:VC141 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH3_FL25 bgevo:hasVice bgevo:VC080 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH3_FL26 bgevo:hasVice bgevo:VC211 ;
+    bgevo:hasVirtue bgevo:VT177 .
+
+bglo:CH3_FL27 bgevo:hasVice bgevo:VC064 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH3_FL28 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH3_FL29 bgevo:hasVice bgevo:VC082 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH3_FL3 bgevo:hasVice bgevo:VC207 ;
+    bgevo:hasVirtue bgevo:VT179 .
+
+bglo:CH3_FL30 bgevo:hasVice bgevo:VC192 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH3_FL31 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH3_FL32 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT150 .
+
+bglo:CH3_FL33 bgevo:hasVice bgevo:VC093 ;
+    bgevo:hasVirtue bgevo:VT005 .
+
+bglo:CH3_FL34 bgevo:hasVice bgevo:VC246 ;
+    bgevo:hasVirtue bgevo:VT156 .
+
+bglo:CH3_FL4 bgevo:hasVice bgevo:VC184 ;
+    bgevo:hasVirtue bgevo:VT024 .
+
+bglo:CH3_FL5 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT171 .
+
+bglo:CH3_FL6 bgevo:hasVice bgevo:VC147 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH3_FL7 bgevo:hasVice bgevo:VC079 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH3_FL8 bgevo:hasVice bgevo:VC225 ;
+    bgevo:hasVirtue bgevo:VT184 .
+
+bglo:CH3_FL9 bgevo:hasVice bgevo:VC179 ;
+    bgevo:hasVirtue bgevo:VT101 .
+
+bglo:CH4_FL1 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH4_FL10 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH4_FL11 bgevo:hasVice bgevo:VC220 ;
+    bgevo:hasVirtue bgevo:VT215 .
+
+bglo:CH4_FL12 bgevo:hasVice bgevo:VC153 ;
+    bgevo:hasVirtue bgevo:VT002 .
+
+bglo:CH4_FL13 bgevo:hasVice bgevo:VC111 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH4_FL14 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH4_FL15 bgevo:hasVice bgevo:VC192 ;
+    bgevo:hasVirtue bgevo:VT119 .
+
+bglo:CH4_FL16 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH4_FL17 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH4_FL18 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT196 .
+
+bglo:CH4_FL19 bgevo:hasVice bgevo:VC030 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH4_FL2 bgevo:hasVice bgevo:VC037 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH4_FL20 bgevo:hasVice bgevo:VC013 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH4_FL21 bgevo:hasVice bgevo:VC189 ;
+    bgevo:hasVirtue bgevo:VT181 .
+
+bglo:CH4_FL22 bgevo:hasVice bgevo:VC041 ;
+    bgevo:hasVirtue bgevo:VT022 .
+
+bglo:CH4_FL23 bgevo:hasVice bgevo:VC016 ;
+    bgevo:hasVirtue bgevo:VT068 .
+
+bglo:CH4_FL24 bgevo:hasVice bgevo:VC203 ;
+    bgevo:hasVirtue bgevo:VT159 .
+
+bglo:CH4_FL25 bgevo:hasVice bgevo:VC158 ;
+    bgevo:hasVirtue bgevo:VT230 .
+
+bglo:CH4_FL26 bgevo:hasVice bgevo:VC211 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH4_FL27 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH4_FL28 bgevo:hasVice bgevo:VC170 ;
+    bgevo:hasVirtue bgevo:VT012 .
+
+bglo:CH4_FL29 bgevo:hasVice bgevo:VC168 ;
+    bgevo:hasVirtue bgevo:VT109 .
+
+bglo:CH4_FL3 bgevo:hasVice bgevo:VC124 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH4_FL30 bgevo:hasVice bgevo:VC132 ;
+    bgevo:hasVirtue bgevo:VT175 .
+
+bglo:CH4_FL31 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT135 .
+
+bglo:CH4_FL32 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH4_FL33 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH4_FL34 bgevo:hasVice bgevo:VC008 ;
+    bgevo:hasVirtue bgevo:VT149 .
+
+bglo:CH4_FL35 bgevo:hasVice bgevo:VC109 ;
+    bgevo:hasVirtue bgevo:VT094 .
+
+bglo:CH4_FL36 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH4_FL37 bgevo:hasVice bgevo:VC219 ;
+    bgevo:hasVirtue bgevo:VT135 .
+
+bglo:CH4_FL38 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH4_FL4 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH4_FL5 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH4_FL6 bgevo:hasVice bgevo:VC155 ;
+    bgevo:hasVirtue bgevo:VT188 .
+
+bglo:CH4_FL7 bgevo:hasVice bgevo:VC246 ;
+    bgevo:hasVirtue bgevo:VT156 .
+
+bglo:CH4_FL8 bgevo:hasVice bgevo:VC025 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH4_FL9 bgevo:hasVice bgevo:VC173 ;
+    bgevo:hasVirtue bgevo:VT050 .
+
+bglo:CH5_FL1 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH5_FL10 bgevo:hasVice bgevo:VC151 ;
+    bgevo:hasVirtue bgevo:VT036 .
+
+bglo:CH5_FL11 bgevo:hasVice bgevo:VC078 ;
+    bgevo:hasVirtue bgevo:VT032 .
+
+bglo:CH5_FL12 bgevo:hasVice bgevo:VC006 ;
+    bgevo:hasVirtue bgevo:VT092 .
+
+bglo:CH5_FL13 bgevo:hasVice bgevo:VC064 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH5_FL14 bgevo:hasVice bgevo:VC046 ;
+    bgevo:hasVirtue bgevo:VT151 .
+
+bglo:CH5_FL15 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH5_FL16 bgevo:hasVice bgevo:VC026 ;
+    bgevo:hasVirtue bgevo:VT053 .
+
+bglo:CH5_FL17 bgevo:hasVice bgevo:VC167 ;
+    bgevo:hasVirtue bgevo:VT206 .
+
+bglo:CH5_FL18 bgevo:hasVice bgevo:VC190 ;
+    bgevo:hasVirtue bgevo:VT054 .
+
+bglo:CH5_FL19 bgevo:hasVice bgevo:VC034 ;
+    bgevo:hasVirtue bgevo:VT055 .
+
+bglo:CH5_FL2 bgevo:hasVice bgevo:VC060 ;
+    bgevo:hasVirtue bgevo:VT010 .
+
+bglo:CH5_FL20 bgevo:hasVice bgevo:VC054 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH5_FL21 bgevo:hasVice bgevo:VC029 ;
+    bgevo:hasVirtue bgevo:VT090 .
+
+bglo:CH5_FL22 bgevo:hasVice bgevo:VC213 ;
+    bgevo:hasVirtue bgevo:VT175 .
+
+bglo:CH5_FL23 bgevo:hasVice bgevo:VC141 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH5_FL24 bgevo:hasVice bgevo:VC005 ;
+    bgevo:hasVirtue bgevo:VT212 .
+
+bglo:CH5_FL25 bgevo:hasVice bgevo:VC147 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH5_FL26 bgevo:hasVice bgevo:VC203 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH5_FL27 bgevo:hasVice bgevo:VC123 ;
+    bgevo:hasVirtue bgevo:VT165 .
+
+bglo:CH5_FL28 bgevo:hasVice bgevo:VC163 ;
+    bgevo:hasVirtue bgevo:VT109 .
+
+bglo:CH5_FL29 bgevo:hasVice bgevo:VC215 ;
+    bgevo:hasVirtue bgevo:VT177 .
+
+bglo:CH5_FL3 bgevo:hasVice bgevo:VC048 ;
+    bgevo:hasVirtue bgevo:VT070 .
+
+bglo:CH5_FL30 bgevo:hasVice bgevo:VC106 ;
+    bgevo:hasVirtue bgevo:VT217 .
+
+bglo:CH5_FL4 bgevo:hasVice bgevo:VC202 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH5_FL5 bgevo:hasVice bgevo:VC234 ;
+    bgevo:hasVirtue bgevo:VT197 .
+
+bglo:CH5_FL6 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH5_FL7 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH5_FL8 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT116 .
+
+bglo:CH5_FL9 bgevo:hasVice bgevo:VC212 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH6_FL1 bgevo:hasVice bgevo:VC207 ;
+    bgevo:hasVirtue bgevo:VT169 .
+
+bglo:CH6_FL10 bgevo:hasVice bgevo:VC224 ;
+    bgevo:hasVirtue bgevo:VT185 .
+
+bglo:CH6_FL11 bgevo:hasVice bgevo:VC149 ;
+    bgevo:hasVirtue bgevo:VT181 .
+
+bglo:CH6_FL12 bgevo:hasVice bgevo:VC118 ;
+    bgevo:hasVirtue bgevo:VT018 .
+
+bglo:CH6_FL13 bgevo:hasVice bgevo:VC070 ;
+    bgevo:hasVirtue bgevo:VT063 .
+
+bglo:CH6_FL14 bgevo:hasVice bgevo:VC235 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH6_FL15 bgevo:hasVice bgevo:VC097 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH6_FL16 bgevo:hasVice bgevo:VC057 ;
+    bgevo:hasVirtue bgevo:VT112 .
+
+bglo:CH6_FL17 bgevo:hasVice bgevo:VC092 ;
+    bgevo:hasVirtue bgevo:VT010 .
+
+bglo:CH6_FL18 bgevo:hasVice bgevo:VC030 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH6_FL19 bgevo:hasVice bgevo:VC200 ;
+    bgevo:hasVirtue bgevo:VT205 .
+
+bglo:CH6_FL2 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH6_FL20 bgevo:hasVice bgevo:VC090 ;
+    bgevo:hasVirtue bgevo:VT173 .
+
+bglo:CH6_FL21 bgevo:hasVice bgevo:VC152 ;
+    bgevo:hasVirtue bgevo:VT189 .
+
+bglo:CH6_FL22 bgevo:hasVice bgevo:VC108 ;
+    bgevo:hasVirtue bgevo:VT203 .
+
+bglo:CH6_FL23 bgevo:hasVice bgevo:VC251 ;
+    bgevo:hasVirtue bgevo:VT033 .
+
+bglo:CH6_FL24 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH6_FL25 bgevo:hasVice bgevo:VC094 ;
+    bgevo:hasVirtue bgevo:VT123 .
+
+bglo:CH6_FL26 bgevo:hasVice bgevo:VC249 ;
+    bgevo:hasVirtue bgevo:VT111 .
+
+bglo:CH6_FL27 bgevo:hasVice bgevo:VC105 ;
+    bgevo:hasVirtue bgevo:VT124 .
+
+bglo:CH6_FL28 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT136 .
+
+bglo:CH6_FL29 bgevo:hasVice bgevo:VC034 ;
+    bgevo:hasVirtue bgevo:VT225 .
+
+bglo:CH6_FL3 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH6_FL30 bgevo:hasVice bgevo:VC075 ;
+    bgevo:hasVirtue bgevo:VT042 .
+
+bglo:CH6_FL31 bgevo:hasVice bgevo:VC216 ;
+    bgevo:hasVirtue bgevo:VT222 .
+
+bglo:CH6_FL32 bgevo:hasVice bgevo:VC099 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH6_FL33 bgevo:hasVice bgevo:VC033 ;
+    bgevo:hasVirtue bgevo:VT128 .
+
+bglo:CH6_FL34 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH6_FL35 bgevo:hasVice bgevo:VC139 ;
+    bgevo:hasVirtue bgevo:VT131 .
+
+bglo:CH6_FL36 bgevo:hasVice bgevo:VC250 ;
+    bgevo:hasVirtue bgevo:VT033 .
+
+bglo:CH6_FL37 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH6_FL38 bgevo:hasVice bgevo:VC084 ;
+    bgevo:hasVirtue bgevo:VT086 .
+
+bglo:CH6_FL39 bgevo:hasVice bgevo:VC226 ;
+    bgevo:hasVirtue bgevo:VT186 .
+
+bglo:CH6_FL4 bgevo:hasVice bgevo:VC134 ;
+    bgevo:hasVirtue bgevo:VT164 .
+
+bglo:CH6_FL40 bgevo:hasVice bgevo:VC102 ;
+    bgevo:hasVirtue bgevo:VT210 .
+
+bglo:CH6_FL5 bgevo:hasVice bgevo:VC208 ;
+    bgevo:hasVirtue bgevo:VT166 .
+
+bglo:CH6_FL6 bgevo:hasVice bgevo:VC210 ;
+    bgevo:hasVirtue bgevo:VT172 .
+
+bglo:CH6_FL7 bgevo:hasVice bgevo:VC163 ;
+    bgevo:hasVirtue bgevo:VT091 .
+
+bglo:CH6_FL8 bgevo:hasVice bgevo:VC053 ;
+    bgevo:hasVirtue bgevo:VT056 .
+
+bglo:CH6_FL9 bgevo:hasVice bgevo:VC185 ;
+    bgevo:hasVirtue bgevo:VT054 .
+
+bglo:CH7_FL1 bgevo:hasVice bgevo:VC232 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH7_FL10 bgevo:hasVice bgevo:VC242 ;
+    bgevo:hasVirtue bgevo:VT007 .
+
+bglo:CH7_FL11 bgevo:hasVice bgevo:VC175 ;
+    bgevo:hasVirtue bgevo:VT209 .
+
+bglo:CH7_FL12 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH7_FL13 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT163 .
+
+bglo:CH7_FL14 bgevo:hasVice bgevo:VC199 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bglo:CH7_FL15 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH7_FL16 bgevo:hasVice bgevo:VC124 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH7_FL17 bgevo:hasVice bgevo:VC240 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH7_FL18 bgevo:hasVice bgevo:VC247 ;
+    bgevo:hasVirtue bgevo:VT207 .
+
+bglo:CH7_FL19 bgevo:hasVice bgevo:VC195 ;
+    bgevo:hasVirtue bgevo:VT017 .
+
+bglo:CH7_FL2 bgevo:hasVice bgevo:VC128 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH7_FL20 bgevo:hasVice bgevo:VC153 ;
+    bgevo:hasVirtue bgevo:VT002 .
+
+bglo:CH7_FL21 bgevo:hasVice bgevo:VC063 ;
+    bgevo:hasVirtue bgevo:VT062 .
+
+bglo:CH7_FL22 bgevo:hasVice bgevo:VC043 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH7_FL23 bgevo:hasVice bgevo:VC218 ;
+    bgevo:hasVirtue bgevo:VT104 .
+
+bglo:CH7_FL24 bgevo:hasVice bgevo:VC174 ;
+    bgevo:hasVirtue bgevo:VT201 .
+
+bglo:CH7_FL25 bgevo:hasVice bgevo:VC127 ;
+    bgevo:hasVirtue bgevo:VT095 .
+
+bglo:CH7_FL26 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT042 .
+
+bglo:CH7_FL27 bgevo:hasVice bgevo:VC012 ;
+    bgevo:hasVirtue bgevo:VT070 .
+
+bglo:CH7_FL28 bgevo:hasVice bgevo:VC095 ;
+    bgevo:hasVirtue bgevo:VT135 .
+
+bglo:CH7_FL29 bgevo:hasVice bgevo:VC148 ;
+    bgevo:hasVirtue bgevo:VT103 .
+
+bglo:CH7_FL3 bgevo:hasVice bgevo:VC019 ;
+    bgevo:hasVirtue bgevo:VT127 .
+
+bglo:CH7_FL30 bgevo:hasVice bgevo:VC231 ;
+    bgevo:hasVirtue bgevo:VT021 .
+
+bglo:CH7_FL4 bgevo:hasVice bgevo:VC155 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH7_FL5 bgevo:hasVice bgevo:VC227 ;
+    bgevo:hasVirtue bgevo:VT188 .
+
+bglo:CH7_FL6 bgevo:hasVice bgevo:VC089 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH7_FL7 bgevo:hasVice bgevo:VC010 ;
+    bgevo:hasVirtue bgevo:VT049 .
+
+bglo:CH7_FL8 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH7_FL9 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH8_FL1 bgevo:hasVice bgevo:VC088 ;
+    bgevo:hasVirtue bgevo:VT094 .
+
+bglo:CH8_FL10 bgevo:hasVice bgevo:VC125 ;
+    bgevo:hasVirtue bgevo:VT193 .
+
+bglo:CH8_FL11 bgevo:hasVice bgevo:VC100 ;
+    bgevo:hasVirtue bgevo:VT040 .
+
+bglo:CH8_FL12 bgevo:hasVice bgevo:VC212 ;
+    bgevo:hasVirtue bgevo:VT177 .
+
+bglo:CH8_FL13 bgevo:hasVice bgevo:VC231 ;
+    bgevo:hasVirtue bgevo:VT158 .
+
+bglo:CH8_FL14 bgevo:hasVice bgevo:VC247 ;
+    bgevo:hasVirtue bgevo:VT226 .
+
+bglo:CH8_FL15 bgevo:hasVice bgevo:VC146 ;
+    bgevo:hasVirtue bgevo:VT102 .
+
+bglo:CH8_FL16 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH8_FL17 bgevo:hasVice bgevo:VC091 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH8_FL18 bgevo:hasVice bgevo:VC144 ;
+    bgevo:hasVirtue bgevo:VT025 .
+
+bglo:CH8_FL19 bgevo:hasVice bgevo:VC217 ;
+    bgevo:hasVirtue bgevo:VT129 .
+
+bglo:CH8_FL2 bgevo:hasVice bgevo:VC126 ;
+    bgevo:hasVirtue bgevo:VT191 .
+
+bglo:CH8_FL20 bgevo:hasVice bgevo:VC155 ;
+    bgevo:hasVirtue bgevo:VT213 .
+
+bglo:CH8_FL21 bgevo:hasVice bgevo:VC253 ;
+    bgevo:hasVirtue bgevo:VT186 .
+
+bglo:CH8_FL22 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT133 .
+
+bglo:CH8_FL23 bgevo:hasVice bgevo:VC022 ;
+    bgevo:hasVirtue bgevo:VT099 .
+
+bglo:CH8_FL24 bgevo:hasVice bgevo:VC122 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH8_FL25 bgevo:hasVice bgevo:VC047 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH8_FL26 bgevo:hasVice bgevo:VC254 ;
+    bgevo:hasVirtue bgevo:VT154 .
+
+bglo:CH8_FL27 bgevo:hasVice bgevo:VC228 ;
+    bgevo:hasVirtue bgevo:VT204 .
+
+bglo:CH8_FL3 bgevo:hasVice bgevo:VC173 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH8_FL4 bgevo:hasVice bgevo:VC074 ;
+    bgevo:hasVirtue bgevo:VT144 .
+
+bglo:CH8_FL5 bgevo:hasVice bgevo:VC235 ;
+    bgevo:hasVirtue bgevo:VT035 .
+
+bglo:CH8_FL6 bgevo:hasVice bgevo:VC150 ;
+    bgevo:hasVirtue bgevo:VT019 .
+
+bglo:CH8_FL7 bgevo:hasVice bgevo:VC042 ;
+    bgevo:hasVirtue bgevo:VT043 .
+
+bglo:CH8_FL8 bgevo:hasVice bgevo:VC118 ;
+    bgevo:hasVirtue bgevo:VT018 .
+
+bglo:CH8_FL9 bgevo:hasVice bgevo:VC163 ;
+    bgevo:hasVirtue bgevo:VT109 .
+
+bglo:CH9_FL1 bgevo:hasVice bgevo:VC018 ;
+    bgevo:hasVirtue bgevo:VT139 .
+
+bglo:CH9_FL10 bgevo:hasVice bgevo:VC209 ;
+    bgevo:hasVirtue bgevo:VT044 .
+
+bglo:CH9_FL11 bgevo:hasVice bgevo:VC073 ;
+    bgevo:hasVirtue bgevo:VT227 .
+
+bglo:CH9_FL12 bgevo:hasVice bgevo:VC027 ;
+    bgevo:hasVirtue bgevo:VT039 .
+
+bglo:CH9_FL13 bgevo:hasVice bgevo:VC201 ;
+    bgevo:hasVirtue bgevo:VT134 .
+
+bglo:CH9_FL14 bgevo:hasVice bgevo:VC182 ;
+    bgevo:hasVirtue bgevo:VT020 .
+
+bglo:CH9_FL15 bgevo:hasVice bgevo:VC058 ;
+    bgevo:hasVirtue bgevo:VT089 .
+
+bglo:CH9_FL16 bgevo:hasVice bgevo:VC103 ;
+    bgevo:hasVirtue bgevo:VT082 .
+
+bglo:CH9_FL17 bgevo:hasVice bgevo:VC061 ;
+    bgevo:hasVirtue bgevo:VT141 .
+
+bglo:CH9_FL18 bgevo:hasVice bgevo:VC191 ;
+    bgevo:hasVirtue bgevo:VT087 .
+
+bglo:CH9_FL19 bgevo:hasVice bgevo:VC106 ;
+    bgevo:hasVirtue bgevo:VT143 .
+
+bglo:CH9_FL2 bgevo:hasVice bgevo:VC124 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH9_FL20 bgevo:hasVice bgevo:VC145 ;
+    bgevo:hasVirtue bgevo:VT002 .
+
+bglo:CH9_FL21 bgevo:hasVice bgevo:VC218 ;
+    bgevo:hasVirtue bgevo:VT104 .
+
+bglo:CH9_FL22 bgevo:hasVice bgevo:VC136 ;
+    bgevo:hasVirtue bgevo:VT061 .
+
+bglo:CH9_FL23 bgevo:hasVice bgevo:VC110 ;
+    bgevo:hasVirtue bgevo:VT212 .
+
+bglo:CH9_FL24 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT147 .
+
+bglo:CH9_FL25 bgevo:hasVice bgevo:VC223 ;
+    bgevo:hasVirtue bgevo:VT192 .
+
+bglo:CH9_FL26 bgevo:hasVice bgevo:VC020 ;
+    bgevo:hasVirtue bgevo:VT181 .
+
+bglo:CH9_FL27 bgevo:hasVice bgevo:VC183 ;
+    bgevo:hasVirtue bgevo:VT029 .
+
+bglo:CH9_FL28 bgevo:hasVice bgevo:VC013 ;
+    bgevo:hasVirtue bgevo:VT145 .
+
+bglo:CH9_FL29 bgevo:hasVice bgevo:VC025 ;
+    bgevo:hasVirtue bgevo:VT016 .
+
+bglo:CH9_FL3 bgevo:hasVice bgevo:VC043 ;
+    bgevo:hasVirtue bgevo:VT216 .
+
+bglo:CH9_FL30 bgevo:hasVice bgevo:VC220 ;
+    bgevo:hasVirtue bgevo:VT146 .
+
+bglo:CH9_FL31 bgevo:hasVice bgevo:VC194 ;
+    bgevo:hasVirtue bgevo:VT215 .
+
+bglo:CH9_FL32 bgevo:hasVice bgevo:VC101 ;
+    bgevo:hasVirtue bgevo:VT055 .
+
+bglo:CH9_FL33 bgevo:hasVice bgevo:VC084 ;
+    bgevo:hasVirtue bgevo:VT086 .
+
+bglo:CH9_FL4 bgevo:hasVice bgevo:VC232 ;
+    bgevo:hasVirtue bgevo:VT188 .
+
+bglo:CH9_FL5 bgevo:hasVice bgevo:VC038 ;
+    bgevo:hasVirtue bgevo:VT152 .
+
+bglo:CH9_FL6 bgevo:hasVice bgevo:VC173 ;
+    bgevo:hasVirtue bgevo:VT221 .
+
+bglo:CH9_FL7 bgevo:hasVice bgevo:VC011 ;
+    bgevo:hasVirtue bgevo:VT031 .
+
+bglo:CH9_FL8 bgevo:hasVice bgevo:VC121 ;
+    bgevo:hasVirtue bgevo:VT034 .
+
+bglo:CH9_FL9 bgevo:hasVice bgevo:VC051 ;
+    bgevo:hasVirtue bgevo:VT211 .
+
+bgevo:VC013 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL11,
+        bglo:CH4_FL20,
+        bglo:CH9_FL28 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC013"^^xsd:string ;
+    bgevo:viceName "Attachment to Results"^^xsd:string .
+
+bgevo:VC030 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL17,
+        bglo:CH4_FL19,
+        bglo:CH6_FL18 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC030"^^xsd:string ;
+    bgevo:viceName "Desire"^^xsd:string .
+
+bgevo:VC037 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL5,
+        bglo:CH18_FL49,
+        bglo:CH4_FL2 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC037"^^xsd:string ;
+    bgevo:viceName "Disobedience"^^xsd:string .
+
+bgevo:VC046 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL30,
+        bglo:CH18_FL17,
+        bglo:CH5_FL14 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC046"^^xsd:string ;
+    bgevo:viceName "Doership Delusion"^^xsd:string .
+
+bgevo:VC048 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL28,
+        bglo:CH2_FL9,
+        bglo:CH5_FL3 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC048"^^xsd:string ;
+    bgevo:viceName "Duality"^^xsd:string .
+
+bgevo:VC050 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL34,
+        bglo:CH2_FL12,
+        bglo:CH3_FL22 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC050"^^xsd:string ;
+    bgevo:viceName "Duty Neglect"^^xsd:string .
+
+bgevo:VC063 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL1,
+        bglo:CH18_FL52,
+        bglo:CH7_FL21 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC063"^^xsd:string ;
+    bgevo:viceName "Faithlessness"^^xsd:string .
+
+bgevo:VC078 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL25,
+        bglo:CH2_FL19,
+        bglo:CH5_FL11 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC078"^^xsd:string ;
+    bgevo:viceName "Fruitive Attachment"^^xsd:string .
+
+bgevo:VC108 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL13,
+        bglo:CH16_FL19,
+        bglo:CH6_FL22 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC108"^^xsd:string ;
+    bgevo:viceName "Instability"^^xsd:string .
+
+bgevo:VC111 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL15,
+        bglo:CH3_FL20,
+        bglo:CH4_FL13 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC111"^^xsd:string ;
+    bgevo:viceName "Irresponsibility"^^xsd:string .
+
+bgevo:VC112 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL6,
+        bglo:CH15_FL14,
+        bglo:CH17_FL13 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC112"^^xsd:string ;
+    bgevo:viceName "Irreverence"^^xsd:string .
+
+bgevo:VC127 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL26,
+        bglo:CH15_FL21,
+        bglo:CH7_FL25 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC127"^^xsd:string ;
+    bgevo:viceName "Lack of Insight"^^xsd:string .
+
+bgevo:VC141 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH2_FL30,
+        bglo:CH3_FL24,
+        bglo:CH5_FL23 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC141"^^xsd:string ;
+    bgevo:viceName "Lust"^^xsd:string .
+
+bgevo:VC163 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH5_FL28,
+        bglo:CH6_FL7,
+        bglo:CH8_FL9 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC163"^^xsd:string ;
+    bgevo:viceName "Mental Agitation"^^xsd:string .
+
+bgevo:VC170 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL4,
+        bglo:CH3_FL13,
+        bglo:CH4_FL28 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC170"^^xsd:string ;
+    bgevo:viceName "Miserliness"^^xsd:string .
+
+bgevo:VC183 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL5,
+        bglo:CH3_FL15,
+        bglo:CH9_FL27 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC183"^^xsd:string ;
+    bgevo:viceName "Negligence"^^xsd:string .
+
+bgevo:VC192 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL58,
+        bglo:CH3_FL30,
+        bglo:CH4_FL15 ;
+    bgevo:viceCategory "Behavioral"^^xsd:string ;
+    bgevo:viceID "VC192"^^xsd:string ;
+    bgevo:viceName "Rebellion"^^xsd:string .
+
+bgevo:VC199 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH15_FL4,
+        bglo:CH18_FL46,
+        bglo:CH7_FL14 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC199"^^xsd:string ;
+    bgevo:viceName "Resistance to Surrender"^^xsd:string .
+
+bgevo:VC209 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL11,
+        bglo:CH11_FL5,
+        bglo:CH9_FL10 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC209"^^xsd:string ;
+    bgevo:viceName "Self-Reliance Pride"^^xsd:string .
+
+bgevo:VC231 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL23,
+        bglo:CH7_FL30,
+        bglo:CH8_FL13 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC231"^^xsd:string ;
+    bgevo:viceName "Spiritual Forgetfulness"^^xsd:string .
+
+bgevo:VC232 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL25,
+        bglo:CH7_FL1,
+        bglo:CH9_FL4 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC232"^^xsd:string ;
+    bgevo:viceName "Spiritual Ignorance"^^xsd:string .
+
+bgevo:VC242 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL20,
+        bglo:CH14_FL11,
+        bglo:CH7_FL10 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC242"^^xsd:string ;
+    bgevo:viceName "Unawareness"^^xsd:string .
+
+bgevo:VC248 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL8,
+        bglo:CH16_FL10,
+        bglo:CH18_FL25 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC248"^^xsd:string ;
+    bgevo:viceName "Violence"^^xsd:string .
+
+bgevo:VC250 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL5,
+        bglo:CH18_FL33,
+        bglo:CH6_FL36 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC250"^^xsd:string ;
+    bgevo:viceName "Weak Determination"^^xsd:string .
+
+bgevo:VC252 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL27,
+        bglo:CH16_FL21,
+        bglo:CH2_FL7 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC252"^^xsd:string ;
+    bgevo:viceName "Weakness"^^xsd:string .
+
+bgevo:VT013 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL8,
+        bglo:CH18_FL19,
+        bglo:CH2_FL31 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT013"^^xsd:string ;
+    bgevo:virtueName "Clarity"^^xsd:string .
+
+bgevo:VT033 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL5,
+        bglo:CH6_FL23,
+        bglo:CH6_FL36 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT033"^^xsd:string ;
+    bgevo:virtueName "Determination"^^xsd:string .
+
+bgevo:VT063 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH16_FL1,
+        bglo:CH2_FL3,
+        bglo:CH6_FL13 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT063"^^xsd:string ;
+    bgevo:virtueName "Fearlessness"^^xsd:string .
+
+bgevo:VT068 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL10,
+        bglo:CH2_FL24,
+        bglo:CH4_FL23 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT068"^^xsd:string ;
+    bgevo:virtueName "Freedom from Attachment"^^xsd:string .
+
+bgevo:VT094 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL16,
+        bglo:CH4_FL35,
+        bglo:CH8_FL1 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT094"^^xsd:string ;
+    bgevo:virtueName "Inquiry"^^xsd:string .
+
+bgevo:VT095 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL26,
+        bglo:CH15_FL21,
+        bglo:CH7_FL25 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT095"^^xsd:string ;
+    bgevo:virtueName "Insight"^^xsd:string .
+
+bgevo:VT103 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL33,
+        bglo:CH14_FL20,
+        bglo:CH7_FL29 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT103"^^xsd:string ;
+    bgevo:virtueName "Liberation Seeking"^^xsd:string .
+
+bgevo:VT109 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH4_FL29,
+        bglo:CH5_FL28,
+        bglo:CH8_FL9 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT109"^^xsd:string ;
+    bgevo:virtueName "Meditation"^^xsd:string .
+
+bgevo:VT116 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL30,
+        bglo:CH18_FL12,
+        bglo:CH5_FL8 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT116"^^xsd:string ;
+    bgevo:virtueName "Non-Doership"^^xsd:string .
+
+bgevo:VT173 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH15_FL20,
+        bglo:CH2_FL38,
+        bglo:CH6_FL20 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT173"^^xsd:string ;
+    bgevo:virtueName "Self-Realization"^^xsd:string .
+
+bgevo:VT177 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH3_FL26,
+        bglo:CH5_FL29,
+        bglo:CH8_FL12 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT177"^^xsd:string ;
+    bgevo:virtueName "Sense Control"^^xsd:string .
+
+bgevo:VT212 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL9,
+        bglo:CH5_FL24,
+        bglo:CH9_FL23 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT212"^^xsd:string ;
+    bgevo:virtueName "Tolerance"^^xsd:string .
+
+bgevo:VT225 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL7,
+        bglo:CH13_FL28,
+        bglo:CH6_FL29 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT225"^^xsd:string ;
+    bgevo:virtueName "Universal Vision"^^xsd:string .
+
+bgevo:VC018 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL1,
+        bglo:CH11_FL2,
+        bglo:CH18_FL50,
+        bglo:CH9_FL1 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC018"^^xsd:string ;
+    bgevo:viceName "Closed-Mindedness"^^xsd:string .
+
+bgevo:VC025 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL15,
+        bglo:CH16_FL15,
+        bglo:CH4_FL8,
+        bglo:CH9_FL29 ;
+    bgevo:viceCategory "Ethical"^^xsd:string ;
+    bgevo:viceID "VC025"^^xsd:string ;
+    bgevo:viceName "Cruelty"^^xsd:string .
+
+bgevo:VC033 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL4,
+        bglo:CH13_FL24,
+        bglo:CH2_FL14,
+        bglo:CH6_FL33 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC033"^^xsd:string ;
+    bgevo:viceName "Discouragement"^^xsd:string .
+
+bgevo:VC034 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL29,
+        bglo:CH14_FL26,
+        bglo:CH5_FL19,
+        bglo:CH6_FL29 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC034"^^xsd:string ;
+    bgevo:viceName "Discrimination"^^xsd:string .
+
+bgevo:VC041 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL19,
+        bglo:CH14_FL7,
+        bglo:CH3_FL18,
+        bglo:CH4_FL22 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC041"^^xsd:string ;
+    bgevo:viceName "Dissatisfaction"^^xsd:string .
+
+bgevo:VC080 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH16_FL16,
+        bglo:CH18_FL24,
+        bglo:CH3_FL12,
+        bglo:CH3_FL25 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC080"^^xsd:string ;
+    bgevo:viceName "Greed"^^xsd:string .
+
+bgevo:VC099 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL14,
+        bglo:CH11_FL9,
+        bglo:CH17_FL20,
+        bglo:CH6_FL32 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC099"^^xsd:string ;
+    bgevo:viceName "Indifference"^^xsd:string .
+
+bgevo:VC126 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL3,
+        bglo:CH13_FL23,
+        bglo:CH18_FL54,
+        bglo:CH8_FL2 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC126"^^xsd:string ;
+    bgevo:viceName "Lack of Inquiry"^^xsd:string .
+
+bgevo:VC139 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH18_FL28,
+        bglo:CH2_FL13,
+        bglo:CH3_FL1,
+        bglo:CH6_FL35 ;
+    bgevo:viceCategory "Achievement"^^xsd:string ;
+    bgevo:viceID "VC139"^^xsd:string ;
+    bgevo:viceName "Laziness"^^xsd:string .
+
+bgevo:VC147 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL18,
+        bglo:CH14_FL17,
+        bglo:CH3_FL6,
+        bglo:CH5_FL25 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC147"^^xsd:string ;
+    bgevo:viceName "Material Attachment"^^xsd:string .
+
+bgevo:VC204 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL1,
+        bglo:CH14_FL5,
+        bglo:CH15_FL20,
+        bglo:CH17_FL2 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC204"^^xsd:string ;
+    bgevo:viceName "Self-Ignorance"^^xsd:string .
+
+bgevo:VC207 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH17_FL12,
+        bglo:CH2_FL16,
+        bglo:CH3_FL3,
+        bglo:CH6_FL1 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC207"^^xsd:string ;
+    bgevo:viceName "Selfishness"^^xsd:string .
+
+bgevo:VT001 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL13,
+        bglo:CH15_FL10,
+        bglo:CH18_FL40,
+        bglo:CH2_FL4 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT001"^^xsd:string ;
+    bgevo:virtueName "Acceptance"^^xsd:string .
+
+bgevo:VT007 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL20,
+        bglo:CH14_FL11,
+        bglo:CH2_FL32,
+        bglo:CH7_FL10 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT007"^^xsd:string ;
+    bgevo:virtueName "Awareness"^^xsd:string .
+
+bgevo:VT018 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL8,
+        bglo:CH2_FL21,
+        bglo:CH6_FL12,
+        bglo:CH8_FL8 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT018"^^xsd:string ;
+    bgevo:virtueName "Concentration"^^xsd:string .
+
+bgevo:VT022 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL19,
+        bglo:CH14_FL7,
+        bglo:CH3_FL18,
+        bglo:CH4_FL22 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT022"^^xsd:string ;
+    bgevo:virtueName "Contentment"^^xsd:string .
+
+bgevo:VT026 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL12,
+        bglo:CH18_FL8,
+        bglo:CH1_FL9,
+        bglo:CH2_FL11 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT026"^^xsd:string ;
+    bgevo:virtueName "Courage"^^xsd:string .
+
+bgevo:VT042 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL20,
+        bglo:CH13_FL27,
+        bglo:CH6_FL30,
+        bglo:CH7_FL26 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT042"^^xsd:string ;
+    bgevo:virtueName "Divine Awareness"^^xsd:string .
+
+bgevo:VT044 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL5,
+        bglo:CH15_FL7,
+        bglo:CH18_FL48,
+        bglo:CH9_FL10 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT044"^^xsd:string ;
+    bgevo:virtueName "Divine Dependence"^^xsd:string .
+
+bgevo:VT051 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL34,
+        bglo:CH1_FL8,
+        bglo:CH2_FL12,
+        bglo:CH3_FL15 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT051"^^xsd:string ;
+    bgevo:virtueName "Duty Consciousness"^^xsd:string .
+
+bgevo:VT055 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL29,
+        bglo:CH14_FL26,
+        bglo:CH5_FL19,
+        bglo:CH9_FL32 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT055"^^xsd:string ;
+    bgevo:virtueName "Equality"^^xsd:string .
+
+bgevo:VT139 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL1,
+        bglo:CH11_FL2,
+        bglo:CH18_FL50,
+        bglo:CH9_FL1 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT139"^^xsd:string ;
+    bgevo:virtueName "Receptivity"^^xsd:string .
+
+bgevo:VT147 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL21,
+        bglo:CH11_FL17,
+        bglo:CH17_FL22,
+        bglo:CH9_FL24 ;
+    bgevo:virtueCategory "Social"^^xsd:string ;
+    bgevo:virtueID "VT147"^^xsd:string ;
+    bgevo:virtueName "Respect"^^xsd:string .
+
+bgevo:VT171 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH17_FL12,
+        bglo:CH18_FL4,
+        bglo:CH2_FL16,
+        bglo:CH3_FL5 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT171"^^xsd:string ;
+    bgevo:virtueName "Selflessness"^^xsd:string .
+
+bgevo:VT172 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL27,
+        bglo:CH18_FL26,
+        bglo:CH2_FL25,
+        bglo:CH6_FL6 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT172"^^xsd:string ;
+    bgevo:virtueName "Self-Mastery"^^xsd:string .
+
+bgevo:VT181 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL10,
+        bglo:CH4_FL21,
+        bglo:CH6_FL11,
+        bglo:CH9_FL26 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT181"^^xsd:string ;
+    bgevo:virtueName "Simplicity"^^xsd:string .
+
+bgevo:VC043 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL14,
+        bglo:CH12_FL7,
+        bglo:CH18_FL47,
+        bglo:CH7_FL22,
+        bglo:CH9_FL3 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC043"^^xsd:string ;
+    bgevo:viceName "Distrust"^^xsd:string .
+
+bgevo:VC054 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL19,
+        bglo:CH14_FL23,
+        bglo:CH18_FL43,
+        bglo:CH2_FL20,
+        bglo:CH5_FL20 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC054"^^xsd:string ;
+    bgevo:viceName "Emotional Reactivity"^^xsd:string .
+
+bgevo:VC073 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL6,
+        bglo:CH14_FL16,
+        bglo:CH17_FL6,
+        bglo:CH2_FL37,
+        bglo:CH9_FL11 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC073"^^xsd:string ;
+    bgevo:viceName "Foolishness"^^xsd:string .
+
+bgevo:VC122 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL4,
+        bglo:CH13_FL4,
+        bglo:CH14_FL10,
+        bglo:CH15_FL18,
+        bglo:CH8_FL24 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC122"^^xsd:string ;
+    bgevo:viceName "Lack of Discernment"^^xsd:string .
+
+bgevo:VC124 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL7,
+        bglo:CH12_FL2,
+        bglo:CH4_FL3,
+        bglo:CH7_FL16,
+        bglo:CH9_FL2 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC124"^^xsd:string ;
+    bgevo:viceName "Lack of Faith"^^xsd:string .
+
+bgevo:VC155 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL3,
+        bglo:CH2_FL27,
+        bglo:CH4_FL6,
+        bglo:CH7_FL4,
+        bglo:CH8_FL20 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC155"^^xsd:string ;
+    bgevo:viceName "Material Identification"^^xsd:string .
+
+bgevo:VC173 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL5,
+        bglo:CH15_FL9,
+        bglo:CH4_FL9,
+        bglo:CH8_FL3,
+        bglo:CH9_FL6 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC173"^^xsd:string ;
+    bgevo:viceName "Misunderstanding"^^xsd:string .
+
+bgevo:VC200 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL12,
+        bglo:CH14_FL28,
+        bglo:CH16_FL14,
+        bglo:CH2_FL26,
+        bglo:CH6_FL19 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC200"^^xsd:string ;
+    bgevo:viceName "Restlessness"^^xsd:string .
+
+bgevo:VC203 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL19,
+        bglo:CH12_FL10,
+        bglo:CH3_FL19,
+        bglo:CH4_FL24,
+        bglo:CH5_FL26 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC203"^^xsd:string ;
+    bgevo:viceName "Self-Centeredness"^^xsd:string .
+
+bgevo:VC227 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL6,
+        bglo:CH11_FL10,
+        bglo:CH13_FL27,
+        bglo:CH15_FL12,
+        bglo:CH7_FL5 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC227"^^xsd:string ;
+    bgevo:viceName "Spiritual Blindness"^^xsd:string .
+
+bgevo:VT002 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL17,
+        bglo:CH11_FL4,
+        bglo:CH4_FL12,
+        bglo:CH7_FL20,
+        bglo:CH9_FL20 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT002"^^xsd:string ;
+    bgevo:virtueName "Aspiration"^^xsd:string .
+
+bgevo:VT135 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH18_FL5,
+        bglo:CH18_FL53,
+        bglo:CH4_FL31,
+        bglo:CH4_FL37,
+        bglo:CH7_FL28 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT135"^^xsd:string ;
+    bgevo:virtueName "Purification"^^xsd:string .
+
+bgevo:VT186 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL2,
+        bglo:CH15_FL6,
+        bglo:CH17_FL4,
+        bglo:CH6_FL39,
+        bglo:CH8_FL21 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT186"^^xsd:string ;
+    bgevo:virtueName "Spiritual Aspiration"^^xsd:string .
+
+bgevo:VT188 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL6,
+        bglo:CH2_FL2,
+        bglo:CH4_FL6,
+        bglo:CH7_FL5,
+        bglo:CH9_FL4 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT188"^^xsd:string ;
+    bgevo:virtueName "Spiritual Awareness"^^xsd:string .
+
+bgevo:VT205 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL13,
+        bglo:CH14_FL28,
+        bglo:CH16_FL19,
+        bglo:CH2_FL6,
+        bglo:CH6_FL19 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT205"^^xsd:string ;
+    bgevo:virtueName "Steadiness"^^xsd:string .
+
+bgevo:VC070 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL12,
+        bglo:CH16_FL1,
+        bglo:CH18_FL8,
+        bglo:CH1_FL3,
+        bglo:CH2_FL3,
+        bglo:CH6_FL13 ;
+    bgevo:viceCategory "Emotional"^^xsd:string ;
+    bgevo:viceID "VC070"^^xsd:string ;
+    bgevo:viceName "Fear"^^xsd:string .
+
+bgevo:VC074 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL20,
+        bglo:CH15_FL15,
+        bglo:CH2_FL32,
+        bglo:CH4_FL1,
+        bglo:CH7_FL26,
+        bglo:CH8_FL4 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC074"^^xsd:string ;
+    bgevo:viceName "Forgetfulness"^^xsd:string .
+
+bgevo:VT127 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL4,
+        bglo:CH13_FL24,
+        bglo:CH18_FL28,
+        bglo:CH2_FL14,
+        bglo:CH6_FL15,
+        bglo:CH7_FL3 ;
+    bgevo:virtueCategory "Achievement"^^xsd:string ;
+    bgevo:virtueID "VT127"^^xsd:string ;
+    bgevo:virtueName "Perseverance"^^xsd:string .
+
+bgevo:VT163 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL2,
+        bglo:CH14_FL5,
+        bglo:CH15_FL2,
+        bglo:CH17_FL2,
+        bglo:CH18_FL32,
+        bglo:CH7_FL13 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT163"^^xsd:string ;
+    bgevo:virtueName "Self-Awareness"^^xsd:string .
+
+bgevo:VT216 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL14,
+        bglo:CH12_FL7,
+        bglo:CH18_FL47,
+        bglo:CH4_FL3,
+        bglo:CH7_FL22,
+        bglo:CH9_FL3 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT216"^^xsd:string ;
+    bgevo:virtueName "Trust"^^xsd:string .
+
+bgevo:VT221 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL5,
+        bglo:CH14_FL4,
+        bglo:CH15_FL9,
+        bglo:CH7_FL12,
+        bglo:CH8_FL3,
+        bglo:CH9_FL6 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT221"^^xsd:string ;
+    bgevo:virtueName "Understanding"^^xsd:string .
+
+bgevo:VC047 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL1,
+        bglo:CH18_FL10,
+        bglo:CH2_FL36,
+        bglo:CH3_FL31,
+        bglo:CH4_FL36,
+        bglo:CH6_FL37,
+        bglo:CH8_FL25 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC047"^^xsd:string ;
+    bgevo:viceName "Doubt"^^xsd:string .
+
+bgevo:VC103 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL13,
+        bglo:CH11_FL16,
+        bglo:CH15_FL13,
+        bglo:CH18_FL55,
+        bglo:CH3_FL11,
+        bglo:CH7_FL8,
+        bglo:CH9_FL16 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC103"^^xsd:string ;
+    bgevo:viceName "Ingratitude"^^xsd:string .
+
+bgevo:VT056 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL19,
+        bglo:CH14_FL23,
+        bglo:CH18_FL43,
+        bglo:CH2_FL28,
+        bglo:CH2_FL9,
+        bglo:CH5_FL20,
+        bglo:CH6_FL8 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT056"^^xsd:string ;
+    bgevo:virtueName "Equanimity"^^xsd:string .
+
+bgevo:VT082 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL13,
+        bglo:CH11_FL16,
+        bglo:CH15_FL13,
+        bglo:CH18_FL55,
+        bglo:CH3_FL11,
+        bglo:CH7_FL8,
+        bglo:CH9_FL16 ;
+    bgevo:virtueCategory "Emotional"^^xsd:string ;
+    bgevo:virtueID "VT082"^^xsd:string ;
+    bgevo:virtueName "Gratitude"^^xsd:string .
+
+bgevo:VT152 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL12,
+        bglo:CH11_FL6,
+        bglo:CH15_FL14,
+        bglo:CH17_FL13,
+        bglo:CH4_FL2,
+        bglo:CH7_FL9,
+        bglo:CH9_FL5 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT152"^^xsd:string ;
+    bgevo:virtueName "Reverence"^^xsd:string .
+
+bgevo:VT211 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH11_FL11,
+        bglo:CH12_FL6,
+        bglo:CH15_FL4,
+        bglo:CH18_FL46,
+        bglo:CH3_FL30,
+        bglo:CH7_FL14,
+        bglo:CH9_FL9 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT211"^^xsd:string ;
+    bgevo:virtueName "Surrender"^^xsd:string .
+
+bgevo:VC038 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL12,
+        bglo:CH10_FL21,
+        bglo:CH11_FL15,
+        bglo:CH17_FL22,
+        bglo:CH3_FL32,
+        bglo:CH7_FL9,
+        bglo:CH9_FL24,
+        bglo:CH9_FL5 ;
+    bgevo:viceCategory "Social"^^xsd:string ;
+    bgevo:viceID "VC038"^^xsd:string ;
+    bgevo:viceName "Disrespect"^^xsd:string .
+
+bgevo:VC051 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL11,
+        bglo:CH12_FL6,
+        bglo:CH13_FL16,
+        bglo:CH18_FL13,
+        bglo:CH18_FL26,
+        bglo:CH3_FL5,
+        bglo:CH5_FL8,
+        bglo:CH9_FL9 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC051"^^xsd:string ;
+    bgevo:viceName "Egoism"^^xsd:string .
+
+bgevo:VC100 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL3,
+        bglo:CH14_FL13,
+        bglo:CH17_FL14,
+        bglo:CH18_FL29,
+        bglo:CH3_FL16,
+        bglo:CH4_FL27,
+        bglo:CH6_FL3,
+        bglo:CH8_FL11 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC100"^^xsd:string ;
+    bgevo:viceName "Indiscipline"^^xsd:string .
+
+bgevo:VC121 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH11_FL18,
+        bglo:CH12_FL1,
+        bglo:CH15_FL17,
+        bglo:CH17_FL11,
+        bglo:CH18_FL44,
+        bglo:CH4_FL33,
+        bglo:CH8_FL22,
+        bglo:CH9_FL8 ;
+    bgevo:viceCategory "Spiritual"^^xsd:string ;
+    bgevo:viceID "VC121"^^xsd:string ;
+    bgevo:viceName "Lack of Devotion"^^xsd:string .
+
+bgevo:VT136 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL12,
+        bglo:CH14_FL6,
+        bglo:CH16_FL2,
+        bglo:CH17_FL7,
+        bglo:CH3_FL25,
+        bglo:CH4_FL10,
+        bglo:CH5_FL7,
+        bglo:CH6_FL28 ;
+    bgevo:virtueCategory "Character"^^xsd:string ;
+    bgevo:virtueID "VT136"^^xsd:string ;
+    bgevo:virtueName "Purity"^^xsd:string .
+
+bgevo:VC134 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH12_FL20,
+        bglo:CH13_FL14,
+        bglo:CH14_FL12,
+        bglo:CH16_FL5,
+        bglo:CH17_FL10,
+        bglo:CH18_FL42,
+        bglo:CH2_FL29,
+        bglo:CH6_FL34,
+        bglo:CH6_FL4 ;
+    bgevo:viceCategory "Self-Regulation"^^xsd:string ;
+    bgevo:viceID "VC134"^^xsd:string ;
+    bgevo:viceName "Lack of Self-Control"^^xsd:string .
+
+bgevo:VT016 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL15,
+        bglo:CH16_FL15,
+        bglo:CH17_FL20,
+        bglo:CH1_FL6,
+        bglo:CH3_FL29,
+        bglo:CH4_FL8,
+        bglo:CH5_FL26,
+        bglo:CH6_FL32,
+        bglo:CH9_FL29 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT016"^^xsd:string ;
+    bgevo:virtueName "Compassion"^^xsd:string .
+
+bgevo:VT040 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL3,
+        bglo:CH14_FL13,
+        bglo:CH17_FL14,
+        bglo:CH18_FL29,
+        bglo:CH2_FL15,
+        bglo:CH3_FL16,
+        bglo:CH4_FL27,
+        bglo:CH6_FL3,
+        bglo:CH8_FL11 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT040"^^xsd:string ;
+    bgevo:virtueName "Discipline"^^xsd:string .
+
+bgevo:VT151 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH14_FL15,
+        bglo:CH18_FL22,
+        bglo:CH18_FL3,
+        bglo:CH1_FL3,
+        bglo:CH2_FL13,
+        bglo:CH3_FL2,
+        bglo:CH3_FL22,
+        bglo:CH4_FL13,
+        bglo:CH5_FL14 ;
+    bgevo:virtueCategory "Ethical"^^xsd:string ;
+    bgevo:virtueID "VT151"^^xsd:string ;
+    bgevo:virtueName "Responsibility"^^xsd:string .
+
+bgevo:VC027 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH14_FL18,
+        bglo:CH14_FL8,
+        bglo:CH18_FL15,
+        bglo:CH18_FL32,
+        bglo:CH1_FL2,
+        bglo:CH2_FL22,
+        bglo:CH2_FL33,
+        bglo:CH4_FL18,
+        bglo:CH7_FL13,
+        bglo:CH9_FL12 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC027"^^xsd:string ;
+    bgevo:viceName "Delusion"^^xsd:string .
+
+bgevo:VC095 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL12,
+        bglo:CH14_FL6,
+        bglo:CH16_FL2,
+        bglo:CH17_FL7,
+        bglo:CH18_FL53,
+        bglo:CH4_FL10,
+        bglo:CH4_FL31,
+        bglo:CH5_FL7,
+        bglo:CH6_FL28,
+        bglo:CH7_FL28 ;
+    bgevo:viceCategory "Character"^^xsd:string ;
+    bgevo:viceID "VC095"^^xsd:string ;
+    bgevo:viceName "Impurity"^^xsd:string .
+
+bgevo:VT099 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL19,
+        bglo:CH13_FL3,
+        bglo:CH14_FL19,
+        bglo:CH14_FL3,
+        bglo:CH15_FL11,
+        bglo:CH2_FL35,
+        bglo:CH4_FL32,
+        bglo:CH5_FL15,
+        bglo:CH7_FL2,
+        bglo:CH8_FL23 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT099"^^xsd:string ;
+    bgevo:virtueName "Knowledge"^^xsd:string .
+
+bgevo:VC022 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL31,
+        bglo:CH15_FL1,
+        bglo:CH18_FL19,
+        bglo:CH18_FL4,
+        bglo:CH1_FL4,
+        bglo:CH2_FL31,
+        bglo:CH2_FL5,
+        bglo:CH4_FL16,
+        bglo:CH5_FL1,
+        bglo:CH7_FL12,
+        bglo:CH8_FL23 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC022"^^xsd:string ;
+    bgevo:viceName "Confusion"^^xsd:string .
+
+bgevo:VC191 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL2,
+        bglo:CH12_FL17,
+        bglo:CH13_FL7,
+        bglo:CH14_FL29,
+        bglo:CH15_FL5,
+        bglo:CH16_FL18,
+        bglo:CH17_FL18,
+        bglo:CH18_FL14,
+        bglo:CH4_FL4,
+        bglo:CH7_FL15,
+        bglo:CH9_FL18 ;
+    bgevo:viceCategory "Ego-Based"^^xsd:string ;
+    bgevo:viceID "VC191"^^xsd:string ;
+    bgevo:viceName "Pride"^^xsd:string .
+
+bgevo:VT034 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL8,
+        bglo:CH11_FL18,
+        bglo:CH12_FL1,
+        bglo:CH15_FL17,
+        bglo:CH17_FL11,
+        bglo:CH18_FL44,
+        bglo:CH3_FL6,
+        bglo:CH4_FL33,
+        bglo:CH6_FL14,
+        bglo:CH7_FL1,
+        bglo:CH9_FL8 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT034"^^xsd:string ;
+    bgevo:virtueName "Devotion"^^xsd:string .
+
+bgevo:VT087 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL2,
+        bglo:CH11_FL8,
+        bglo:CH12_FL17,
+        bglo:CH13_FL7,
+        bglo:CH15_FL5,
+        bglo:CH17_FL18,
+        bglo:CH18_FL11,
+        bglo:CH3_FL27,
+        bglo:CH4_FL4,
+        bglo:CH5_FL13,
+        bglo:CH7_FL15,
+        bglo:CH9_FL18 ;
+    bgevo:virtueCategory "Ego-Based"^^xsd:string ;
+    bgevo:virtueID "VT087"^^xsd:string ;
+    bgevo:virtueName "Humility"^^xsd:string .
+
+bgevo:VT145 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL11,
+        bglo:CH13_FL18,
+        bglo:CH16_FL13,
+        bglo:CH17_FL25,
+        bglo:CH18_FL1,
+        bglo:CH18_FL41,
+        bglo:CH2_FL17,
+        bglo:CH3_FL12,
+        bglo:CH4_FL19,
+        bglo:CH5_FL1,
+        bglo:CH6_FL2,
+        bglo:CH6_FL24,
+        bglo:CH9_FL28 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT145"^^xsd:string ;
+    bgevo:virtueName "Renunciation"^^xsd:string .
+
+bgevo:VT164 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH12_FL20,
+        bglo:CH13_FL14,
+        bglo:CH14_FL12,
+        bglo:CH16_FL5,
+        bglo:CH17_FL10,
+        bglo:CH18_FL42,
+        bglo:CH2_FL29,
+        bglo:CH2_FL7,
+        bglo:CH3_FL24,
+        bglo:CH4_FL26,
+        bglo:CH5_FL9,
+        bglo:CH6_FL34,
+        bglo:CH6_FL4 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT164"^^xsd:string ;
+    bgevo:virtueName "Self-Control"^^xsd:string .
+
+bgevo:VT061 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL7,
+        bglo:CH11_FL1,
+        bglo:CH12_FL2,
+        bglo:CH17_FL1,
+        bglo:CH18_FL52,
+        bglo:CH2_FL36,
+        bglo:CH3_FL31,
+        bglo:CH4_FL1,
+        bglo:CH4_FL36,
+        bglo:CH6_FL37,
+        bglo:CH7_FL16,
+        bglo:CH8_FL25,
+        bglo:CH9_FL2,
+        bglo:CH9_FL22 ;
+    bgevo:virtueCategory "Spiritual"^^xsd:string ;
+    bgevo:virtueID "VT061"^^xsd:string ;
+    bgevo:virtueName "Faith"^^xsd:string .
+
+bgevo:VT039 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL4,
+        bglo:CH13_FL31,
+        bglo:CH13_FL4,
+        bglo:CH14_FL10,
+        bglo:CH15_FL1,
+        bglo:CH15_FL18,
+        bglo:CH17_FL3,
+        bglo:CH18_FL7,
+        bglo:CH1_FL4,
+        bglo:CH2_FL5,
+        bglo:CH3_FL28,
+        bglo:CH4_FL16,
+        bglo:CH7_FL4,
+        bglo:CH8_FL24,
+        bglo:CH9_FL12 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT039"^^xsd:string ;
+    bgevo:virtueName "Discernment"^^xsd:string .
+
+bgevo:VT031 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH13_FL15,
+        bglo:CH14_FL17,
+        bglo:CH14_FL9,
+        bglo:CH15_FL3,
+        bglo:CH17_FL19,
+        bglo:CH18_FL2,
+        bglo:CH18_FL27,
+        bglo:CH2_FL34,
+        bglo:CH2_FL8,
+        bglo:CH3_FL23,
+        bglo:CH3_FL7,
+        bglo:CH4_FL14,
+        bglo:CH4_FL20,
+        bglo:CH5_FL23,
+        bglo:CH5_FL6,
+        bglo:CH6_FL18,
+        bglo:CH8_FL16,
+        bglo:CH9_FL7 ;
+    bgevo:virtueCategory "Self-Regulation"^^xsd:string ;
+    bgevo:virtueID "VT031"^^xsd:string ;
+    bgevo:virtueName "Detachment"^^xsd:string .
+
+bgevo:VT227 a bgevo:Virtue ;
+    bgevo:isVirtueOfLaw bglo:CH10_FL3,
+        bglo:CH13_FL6,
+        bglo:CH14_FL1,
+        bglo:CH14_FL16,
+        bglo:CH15_FL16,
+        bglo:CH17_FL6,
+        bglo:CH18_FL16,
+        bglo:CH18_FL30,
+        bglo:CH18_FL6,
+        bglo:CH2_FL1,
+        bglo:CH2_FL23,
+        bglo:CH2_FL37,
+        bglo:CH4_FL17,
+        bglo:CH4_FL38,
+        bglo:CH4_FL5,
+        bglo:CH5_FL25,
+        bglo:CH5_FL4,
+        bglo:CH7_FL17,
+        bglo:CH7_FL6,
+        bglo:CH8_FL17,
+        bglo:CH9_FL11 ;
+    bgevo:virtueCategory "Cognitive"^^xsd:string ;
+    bgevo:virtueID "VT227"^^xsd:string ;
+    bgevo:virtueName "Wisdom"^^xsd:string .
+
+bgevo:VC011 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH13_FL15,
+        bglo:CH14_FL25,
+        bglo:CH14_FL9,
+        bglo:CH15_FL3,
+        bglo:CH16_FL13,
+        bglo:CH17_FL19,
+        bglo:CH18_FL1,
+        bglo:CH18_FL23,
+        bglo:CH18_FL41,
+        bglo:CH18_FL9,
+        bglo:CH1_FL6,
+        bglo:CH2_FL24,
+        bglo:CH2_FL34,
+        bglo:CH2_FL4,
+        bglo:CH2_FL8,
+        bglo:CH3_FL23,
+        bglo:CH4_FL14,
+        bglo:CH5_FL6,
+        bglo:CH6_FL2,
+        bglo:CH6_FL24,
+        bglo:CH8_FL16,
+        bglo:CH9_FL7 ;
+    bgevo:viceCategory "Desire-Based"^^xsd:string ;
+    bgevo:viceID "VC011"^^xsd:string ;
+    bgevo:viceName "Attachment"^^xsd:string .
+
+bgevo:VC088 a bgevo:Vice ;
+    bgevo:isViceOfLaw bglo:CH10_FL19,
+        bglo:CH10_FL3,
+        bglo:CH13_FL3,
+        bglo:CH14_FL1,
+        bglo:CH14_FL19,
+        bglo:CH15_FL11,
+        bglo:CH16_FL3,
+        bglo:CH18_FL16,
+        bglo:CH18_FL30,
+        bglo:CH18_FL57,
+        bglo:CH18_FL7,
+        bglo:CH1_FL10,
+        bglo:CH2_FL2,
+        bglo:CH2_FL23,
+        bglo:CH2_FL35,
+        bglo:CH3_FL28,
+        bglo:CH4_FL17,
+        bglo:CH4_FL32,
+        bglo:CH4_FL38,
+        bglo:CH4_FL5,
+        bglo:CH5_FL15,
+        bglo:CH8_FL1 ;
+    bgevo:viceCategory "Cognitive"^^xsd:string ;
+    bgevo:viceID "VC088"^^xsd:string ;
+    bgevo:viceName "Ignorance"^^xsd:string .
+
+bgevo:Virtue a owl:Class ;
+    rdfs:label "Virtue" ;
+    rdfs:comment "An ethical or positive quality associated with a Bhagavad Gita law." .
+
+bgevo:Vice a owl:Class ;
+    rdfs:label "Vice" ;
+    rdfs:comment "An unethical or negative quality associated with a Bhagavad Gita law." .
+

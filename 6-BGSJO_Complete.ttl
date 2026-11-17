@@ -1,0 +1,1857 @@
+@prefix bglo: <http://www.semanticweb.org/apurbapaul/bglo#> .
+@prefix bgsjo: <http://www.semanticweb.org/apurbapaul/bgsjo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bgsjo:BGSJO a owl:Ontology ;
+    rdfs:label "Bhagavad Gita Spiritual Journey Ontology" ;
+    rdfs:comment "Ontology representing spiritual journey stages, journey transitions, chapters, and their associated fine-grained laws." .
+
+bgsjo:SJ_CH10_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL2 ;
+    bgsjo:hasNextStage bgsjo:ST036 ;
+    bgsjo:journeyID "SJ_CH10_001" .
+
+bgsjo:SJ_CH10_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST071 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL4 ;
+    bgsjo:hasNextStage bgsjo:ST132 ;
+    bgsjo:journeyID "SJ_CH10_002" .
+
+bgsjo:SJ_CH10_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST101 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL6 ;
+    bgsjo:hasNextStage bgsjo:ST058 ;
+    bgsjo:journeyID "SJ_CH10_003" .
+
+bgsjo:SJ_CH10_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH10_004" .
+
+bgsjo:SJ_CH10_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST084 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL11 ;
+    bgsjo:hasNextStage bgsjo:ST162 ;
+    bgsjo:journeyID "SJ_CH10_005" .
+
+bgsjo:SJ_CH10_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST015 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST159 ;
+    bgsjo:journeyID "SJ_CH10_006" .
+
+bgsjo:SJ_CH10_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST039 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST117 ;
+    bgsjo:journeyID "SJ_CH10_007" .
+
+bgsjo:SJ_CH10_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST029 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL23 ;
+    bgsjo:hasNextStage bgsjo:ST075 ;
+    bgsjo:journeyID "SJ_CH10_008" .
+
+bgsjo:SJ_CH10_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST091 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL30 ;
+    bgsjo:hasNextStage bgsjo:ST031 ;
+    bgsjo:journeyID "SJ_CH10_009" .
+
+bgsjo:SJ_CH10_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH10 ;
+    bgsjo:hasCurrentStage bgsjo:ST123 ;
+    bgsjo:hasFineGrainedLaw bglo:CH10_FL42 ;
+    bgsjo:hasNextStage bgsjo:ST163 ;
+    bgsjo:journeyID "SJ_CH10_010" .
+
+bgsjo:SJ_CH11_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST083 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST018 ;
+    bgsjo:journeyID "SJ_CH11_001" .
+
+bgsjo:SJ_CH11_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH11_002" .
+
+bgsjo:SJ_CH11_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST053 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST150 ;
+    bgsjo:journeyID "SJ_CH11_003" .
+
+bgsjo:SJ_CH11_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST003 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST156 ;
+    bgsjo:journeyID "SJ_CH11_004" .
+
+bgsjo:SJ_CH11_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST100 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST001 ;
+    bgsjo:journeyID "SJ_CH11_005" .
+
+bgsjo:SJ_CH11_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST069 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL16 ;
+    bgsjo:hasNextStage bgsjo:ST167 ;
+    bgsjo:journeyID "SJ_CH11_006" .
+
+bgsjo:SJ_CH11_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST021 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL21 ;
+    bgsjo:hasNextStage bgsjo:ST109 ;
+    bgsjo:journeyID "SJ_CH11_007" .
+
+bgsjo:SJ_CH11_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST137 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL28 ;
+    bgsjo:hasNextStage bgsjo:ST160 ;
+    bgsjo:journeyID "SJ_CH11_008" .
+
+bgsjo:SJ_CH11_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST138 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL35 ;
+    bgsjo:hasNextStage bgsjo:ST017 ;
+    bgsjo:journeyID "SJ_CH11_009" .
+
+bgsjo:SJ_CH11_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH11 ;
+    bgsjo:hasCurrentStage bgsjo:ST074 ;
+    bgsjo:hasFineGrainedLaw bglo:CH11_FL55 ;
+    bgsjo:hasNextStage bgsjo:Stage_Direct_Realization ;
+    bgsjo:journeyID "SJ_CH11_010" .
+
+bgsjo:SJ_CH12_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST014 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL13 ;
+    bgsjo:hasNextStage bgsjo:ST010 ;
+    bgsjo:journeyID "SJ_CH12_001" .
+
+bgsjo:SJ_CH12_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST114 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST057 ;
+    bgsjo:journeyID "SJ_CH12_002" .
+
+bgsjo:SJ_CH12_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST087 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL6 ;
+    bgsjo:hasNextStage bgsjo:ST088 ;
+    bgsjo:journeyID "SJ_CH12_003" .
+
+bgsjo:SJ_CH12_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST003 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL17 ;
+    bgsjo:hasNextStage bgsjo:ST157 ;
+    bgsjo:journeyID "SJ_CH12_004" .
+
+bgsjo:SJ_CH12_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST150 ;
+    bgsjo:journeyID "SJ_CH12_005" .
+
+bgsjo:SJ_CH12_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST069 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL13 ;
+    bgsjo:hasNextStage bgsjo:ST161 ;
+    bgsjo:journeyID "SJ_CH12_006" .
+
+bgsjo:SJ_CH12_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST116 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST073 ;
+    bgsjo:journeyID "SJ_CH12_007" .
+
+bgsjo:SJ_CH12_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST039 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL19 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH12_008" .
+
+bgsjo:SJ_CH12_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:ST077 ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL20 ;
+    bgsjo:hasNextStage bgsjo:ST046 ;
+    bgsjo:journeyID "SJ_CH12_009" .
+
+bgsjo:SJ_CH12_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH12 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Dissatisfaction ;
+    bgsjo:hasFineGrainedLaw bglo:CH12_FL11 ;
+    bgsjo:hasNextStage bgsjo:ST025 ;
+    bgsjo:journeyID "SJ_CH12_010" .
+
+bgsjo:SJ_CH13_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST106 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST128 ;
+    bgsjo:journeyID "SJ_CH13_001" .
+
+bgsjo:SJ_CH13_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST008 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST124 ;
+    bgsjo:journeyID "SJ_CH13_002" .
+
+bgsjo:SJ_CH13_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST080 ;
+    bgsjo:journeyID "SJ_CH13_003" .
+
+bgsjo:SJ_CH13_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL8 ;
+    bgsjo:hasNextStage bgsjo:Stage_Detachment ;
+    bgsjo:journeyID "SJ_CH13_004" .
+
+bgsjo:SJ_CH13_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST099 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL10 ;
+    bgsjo:hasNextStage bgsjo:ST145 ;
+    bgsjo:journeyID "SJ_CH13_005" .
+
+bgsjo:SJ_CH13_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL13 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH13_006" .
+
+bgsjo:SJ_CH13_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST030 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST012 ;
+    bgsjo:journeyID "SJ_CH13_007" .
+
+bgsjo:SJ_CH13_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST054 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL21 ;
+    bgsjo:hasNextStage bgsjo:ST155 ;
+    bgsjo:journeyID "SJ_CH13_008" .
+
+bgsjo:SJ_CH13_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST074 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL28 ;
+    bgsjo:hasNextStage bgsjo:ST163 ;
+    bgsjo:journeyID "SJ_CH13_009" .
+
+bgsjo:SJ_CH13_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH13 ;
+    bgsjo:hasCurrentStage bgsjo:ST129 ;
+    bgsjo:hasFineGrainedLaw bglo:CH13_FL35 ;
+    bgsjo:hasNextStage bgsjo:Stage_Self_Realization ;
+    bgsjo:journeyID "SJ_CH13_010" .
+
+bgsjo:SJ_CH14_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL4 ;
+    bgsjo:hasNextStage bgsjo:ST007 ;
+    bgsjo:journeyID "SJ_CH14_001" .
+
+bgsjo:SJ_CH14_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST116 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL7 ;
+    bgsjo:hasNextStage bgsjo:ST133 ;
+    bgsjo:journeyID "SJ_CH14_002" .
+
+bgsjo:SJ_CH14_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST020 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL9 ;
+    bgsjo:hasNextStage bgsjo:ST028 ;
+    bgsjo:journeyID "SJ_CH14_003" .
+
+bgsjo:SJ_CH14_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST041 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST046 ;
+    bgsjo:journeyID "SJ_CH14_004" .
+
+bgsjo:SJ_CH14_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST004 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST108 ;
+    bgsjo:journeyID "SJ_CH14_005" .
+
+bgsjo:SJ_CH14_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST103 ;
+    bgsjo:journeyID "SJ_CH14_006" .
+
+bgsjo:SJ_CH14_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST015 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL21 ;
+    bgsjo:hasNextStage bgsjo:ST009 ;
+    bgsjo:journeyID "SJ_CH14_007" .
+
+bgsjo:SJ_CH14_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST151 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL24 ;
+    bgsjo:hasNextStage bgsjo:ST121 ;
+    bgsjo:journeyID "SJ_CH14_008" .
+
+bgsjo:SJ_CH14_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST022 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL27 ;
+    bgsjo:hasNextStage bgsjo:ST154 ;
+    bgsjo:journeyID "SJ_CH14_009" .
+
+bgsjo:SJ_CH14_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH14 ;
+    bgsjo:hasCurrentStage bgsjo:ST122 ;
+    bgsjo:hasFineGrainedLaw bglo:CH14_FL30 ;
+    bgsjo:hasNextStage bgsjo:ST062 ;
+    bgsjo:journeyID "SJ_CH14_010" .
+
+bgsjo:SJ_CH15_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST168 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL2 ;
+    bgsjo:hasNextStage bgsjo:Stage_Detachment ;
+    bgsjo:journeyID "SJ_CH15_001" .
+
+bgsjo:SJ_CH15_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST015 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL4 ;
+    bgsjo:hasNextStage bgsjo:ST063 ;
+    bgsjo:journeyID "SJ_CH15_002" .
+
+bgsjo:SJ_CH15_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST090 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL6 ;
+    bgsjo:hasNextStage bgsjo:ST139 ;
+    bgsjo:journeyID "SJ_CH15_003" .
+
+bgsjo:SJ_CH15_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST158 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST107 ;
+    bgsjo:journeyID "SJ_CH15_004" .
+
+bgsjo:SJ_CH15_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL11 ;
+    bgsjo:hasNextStage bgsjo:ST113 ;
+    bgsjo:journeyID "SJ_CH15_005" .
+
+bgsjo:SJ_CH15_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST039 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH15_006" .
+
+bgsjo:SJ_CH15_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST034 ;
+    bgsjo:journeyID "SJ_CH15_007" .
+
+bgsjo:SJ_CH15_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST137 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL20 ;
+    bgsjo:hasNextStage bgsjo:ST032 ;
+    bgsjo:journeyID "SJ_CH15_008" .
+
+bgsjo:SJ_CH15_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL23 ;
+    bgsjo:hasNextStage bgsjo:ST129 ;
+    bgsjo:journeyID "SJ_CH15_009" .
+
+bgsjo:SJ_CH15_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH15 ;
+    bgsjo:hasCurrentStage bgsjo:ST140 ;
+    bgsjo:hasFineGrainedLaw bglo:CH15_FL27 ;
+    bgsjo:hasNextStage bgsjo:ST110 ;
+    bgsjo:journeyID "SJ_CH15_010" .
+
+bgsjo:SJ_CH16_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST053 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST055 ;
+    bgsjo:journeyID "SJ_CH16_001" .
+
+bgsjo:SJ_CH16_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Anger ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST126 ;
+    bgsjo:journeyID "SJ_CH16_002" .
+
+bgsjo:SJ_CH16_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST059 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL8 ;
+    bgsjo:hasNextStage bgsjo:Stage_Contentment ;
+    bgsjo:journeyID "SJ_CH16_003" .
+
+bgsjo:SJ_CH16_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL10 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH16_004" .
+
+bgsjo:SJ_CH16_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST134 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST010 ;
+    bgsjo:journeyID "SJ_CH16_005" .
+
+bgsjo:SJ_CH16_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST098 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST119 ;
+    bgsjo:journeyID "SJ_CH16_006" .
+
+bgsjo:SJ_CH16_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Envy ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL18 ;
+    bgsjo:hasNextStage bgsjo:Stage_Appreciation ;
+    bgsjo:journeyID "SJ_CH16_007" .
+
+bgsjo:SJ_CH16_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Impulsiveness ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL21 ;
+    bgsjo:hasNextStage bgsjo:Stage_Discipline ;
+    bgsjo:journeyID "SJ_CH16_008" .
+
+bgsjo:SJ_CH16_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:ST047 ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL24 ;
+    bgsjo:hasNextStage bgsjo:ST096 ;
+    bgsjo:journeyID "SJ_CH16_009" .
+
+bgsjo:SJ_CH16_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH16 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Demoniac_Tendencies ;
+    bgsjo:hasFineGrainedLaw bglo:CH16_FL28 ;
+    bgsjo:hasNextStage bgsjo:ST035 ;
+    bgsjo:journeyID "SJ_CH16_010" .
+
+bgsjo:SJ_CH17_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST052 ;
+    bgsjo:journeyID "SJ_CH17_001" .
+
+bgsjo:SJ_CH17_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST102 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL4 ;
+    bgsjo:hasNextStage bgsjo:Stage_Purity ;
+    bgsjo:journeyID "SJ_CH17_002" .
+
+bgsjo:SJ_CH17_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST040 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL7 ;
+    bgsjo:hasNextStage bgsjo:ST135 ;
+    bgsjo:journeyID "SJ_CH17_003" .
+
+bgsjo:SJ_CH17_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL10 ;
+    bgsjo:hasNextStage bgsjo:ST064 ;
+    bgsjo:journeyID "SJ_CH17_004" .
+
+bgsjo:SJ_CH17_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST068 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL13 ;
+    bgsjo:hasNextStage bgsjo:Stage_Discipline ;
+    bgsjo:journeyID "SJ_CH17_005" .
+
+bgsjo:SJ_CH17_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST158 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL16 ;
+    bgsjo:hasNextStage bgsjo:ST017 ;
+    bgsjo:journeyID "SJ_CH17_006" .
+
+bgsjo:SJ_CH17_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST095 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL19 ;
+    bgsjo:hasNextStage bgsjo:Stage_Mental_Purification ;
+    bgsjo:journeyID "SJ_CH17_007" .
+
+bgsjo:SJ_CH17_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Dishonesty ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL22 ;
+    bgsjo:hasNextStage bgsjo:Stage_Truthfulness ;
+    bgsjo:journeyID "SJ_CH17_008" .
+
+bgsjo:SJ_CH17_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST165 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL25 ;
+    bgsjo:hasNextStage bgsjo:ST147 ;
+    bgsjo:journeyID "SJ_CH17_009" .
+
+bgsjo:SJ_CH17_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH17 ;
+    bgsjo:hasCurrentStage bgsjo:ST005 ;
+    bgsjo:hasFineGrainedLaw bglo:CH17_FL28 ;
+    bgsjo:hasNextStage bgsjo:Stage_Mature_Faith ;
+    bgsjo:journeyID "SJ_CH17_010" .
+
+bgsjo:SJ_CH18_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST015 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST118 ;
+    bgsjo:journeyID "SJ_CH18_001" .
+
+bgsjo:SJ_CH18_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST023 ;
+    bgsjo:journeyID "SJ_CH18_002" .
+
+bgsjo:SJ_CH18_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST113 ;
+    bgsjo:journeyID "SJ_CH18_003" .
+
+bgsjo:SJ_CH18_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST149 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST072 ;
+    bgsjo:journeyID "SJ_CH18_004" .
+
+bgsjo:SJ_CH18_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST166 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST130 ;
+    bgsjo:journeyID "SJ_CH18_005" .
+
+bgsjo:SJ_CH18_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST105 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL21 ;
+    bgsjo:hasNextStage bgsjo:ST065 ;
+    bgsjo:journeyID "SJ_CH18_006" .
+
+bgsjo:SJ_CH18_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST047 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL30 ;
+    bgsjo:hasNextStage bgsjo:ST027 ;
+    bgsjo:journeyID "SJ_CH18_007" .
+
+bgsjo:SJ_CH18_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST146 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL45 ;
+    bgsjo:hasNextStage bgsjo:ST144 ;
+    bgsjo:journeyID "SJ_CH18_008" .
+
+bgsjo:SJ_CH18_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST053 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL60 ;
+    bgsjo:hasNextStage bgsjo:ST011 ;
+    bgsjo:journeyID "SJ_CH18_009" .
+
+bgsjo:SJ_CH18_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH18 ;
+    bgsjo:hasCurrentStage bgsjo:ST070 ;
+    bgsjo:hasFineGrainedLaw bglo:CH18_FL66 ;
+    bgsjo:hasNextStage bgsjo:ST085 ;
+    bgsjo:journeyID "SJ_CH18_010" .
+
+bgsjo:SJ_CH1_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH01 ;
+    bgsjo:hasCurrentStage bgsjo:ST043 ;
+    bgsjo:hasFineGrainedLaw bglo:CH1_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST015 ;
+    bgsjo:journeyID "SJ_CH1_001" .
+
+bgsjo:SJ_CH1_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH01 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Duty_Awareness ;
+    bgsjo:hasFineGrainedLaw bglo:CH1_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST097 ;
+    bgsjo:journeyID "SJ_CH1_002" .
+
+bgsjo:SJ_CH1_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH01 ;
+    bgsjo:hasCurrentStage bgsjo:ST013 ;
+    bgsjo:hasFineGrainedLaw bglo:CH1_FL3 ;
+    bgsjo:hasNextStage bgsjo:Stage_Despair ;
+    bgsjo:journeyID "SJ_CH1_003" .
+
+bgsjo:SJ_CH1_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH01 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH1_FL7 ;
+    bgsjo:hasNextStage bgsjo:ST050 ;
+    bgsjo:journeyID "SJ_CH1_004" .
+
+bgsjo:SJ_CH2_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH02 ;
+    bgsjo:hasCurrentStage bgsjo:ST015 ;
+    bgsjo:hasFineGrainedLaw bglo:CH2_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST081 ;
+    bgsjo:journeyID "SJ_CH2_001" .
+
+bgsjo:SJ_CH2_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH02 ;
+    bgsjo:hasCurrentStage bgsjo:ST060 ;
+    bgsjo:hasFineGrainedLaw bglo:CH2_FL4 ;
+    bgsjo:hasNextStage bgsjo:ST164 ;
+    bgsjo:journeyID "SJ_CH2_002" .
+
+bgsjo:SJ_CH2_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH02 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH2_FL48 ;
+    bgsjo:hasNextStage bgsjo:Stage_Detachment ;
+    bgsjo:journeyID "SJ_CH2_003" .
+
+bgsjo:SJ_CH2_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH02 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH2_FL52 ;
+    bgsjo:hasNextStage bgsjo:ST028 ;
+    bgsjo:journeyID "SJ_CH2_004" .
+
+bgsjo:SJ_CH3_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH03 ;
+    bgsjo:hasCurrentStage bgsjo:ST081 ;
+    bgsjo:hasFineGrainedLaw bglo:CH3_FL2 ;
+    bgsjo:hasNextStage bgsjo:ST115 ;
+    bgsjo:journeyID "SJ_CH3_001" .
+
+bgsjo:SJ_CH3_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH03 ;
+    bgsjo:hasCurrentStage bgsjo:ST125 ;
+    bgsjo:hasFineGrainedLaw bglo:CH3_FL10 ;
+    bgsjo:hasNextStage bgsjo:ST136 ;
+    bgsjo:journeyID "SJ_CH3_002" .
+
+bgsjo:SJ_CH3_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH03 ;
+    bgsjo:hasCurrentStage bgsjo:ST067 ;
+    bgsjo:hasFineGrainedLaw bglo:CH3_FL15 ;
+    bgsjo:hasNextStage bgsjo:Stage_Duty_Consciousness ;
+    bgsjo:journeyID "SJ_CH3_003" .
+
+bgsjo:SJ_CH3_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH03 ;
+    bgsjo:hasCurrentStage bgsjo:ST022 ;
+    bgsjo:hasFineGrainedLaw bglo:CH3_FL31 ;
+    bgsjo:hasNextStage bgsjo:ST126 ;
+    bgsjo:journeyID "SJ_CH3_004" .
+
+bgsjo:SJ_CH4_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH04 ;
+    bgsjo:hasCurrentStage bgsjo:Stage_Duty_Consciousness ;
+    bgsjo:hasFineGrainedLaw bglo:CH4_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST163 ;
+    bgsjo:journeyID "SJ_CH4_001" .
+
+bgsjo:SJ_CH4_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH04 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH4_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST078 ;
+    bgsjo:journeyID "SJ_CH4_002" .
+
+bgsjo:SJ_CH4_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH04 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH4_FL33 ;
+    bgsjo:hasNextStage bgsjo:ST159 ;
+    bgsjo:journeyID "SJ_CH4_003" .
+
+bgsjo:SJ_CH4_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH04 ;
+    bgsjo:hasCurrentStage bgsjo:ST002 ;
+    bgsjo:hasFineGrainedLaw bglo:CH4_FL38 ;
+    bgsjo:hasNextStage bgsjo:ST044 ;
+    bgsjo:journeyID "SJ_CH4_004" .
+
+bgsjo:SJ_CH5_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH05 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH5_FL10 ;
+    bgsjo:hasNextStage bgsjo:ST113 ;
+    bgsjo:journeyID "SJ_CH5_001" .
+
+bgsjo:SJ_CH5_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH05 ;
+    bgsjo:hasCurrentStage bgsjo:ST042 ;
+    bgsjo:hasFineGrainedLaw bglo:CH5_FL23 ;
+    bgsjo:hasNextStage bgsjo:ST046 ;
+    bgsjo:journeyID "SJ_CH5_002" .
+
+bgsjo:SJ_CH5_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH05 ;
+    bgsjo:hasCurrentStage bgsjo:ST022 ;
+    bgsjo:hasFineGrainedLaw bglo:CH5_FL21 ;
+    bgsjo:hasNextStage bgsjo:ST073 ;
+    bgsjo:journeyID "SJ_CH5_003" .
+
+bgsjo:SJ_CH5_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH05 ;
+    bgsjo:hasCurrentStage bgsjo:ST039 ;
+    bgsjo:hasFineGrainedLaw bglo:CH5_FL29 ;
+    bgsjo:hasNextStage bgsjo:ST104 ;
+    bgsjo:journeyID "SJ_CH5_004" .
+
+bgsjo:SJ_CH6_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH06 ;
+    bgsjo:hasCurrentStage bgsjo:ST094 ;
+    bgsjo:hasFineGrainedLaw bglo:CH6_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST012 ;
+    bgsjo:journeyID "SJ_CH6_001" .
+
+bgsjo:SJ_CH6_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH06 ;
+    bgsjo:hasCurrentStage bgsjo:ST082 ;
+    bgsjo:hasFineGrainedLaw bglo:CH6_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST126 ;
+    bgsjo:journeyID "SJ_CH6_002" .
+
+bgsjo:SJ_CH6_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH06 ;
+    bgsjo:hasCurrentStage bgsjo:ST116 ;
+    bgsjo:hasFineGrainedLaw bglo:CH6_FL33 ;
+    bgsjo:hasNextStage bgsjo:ST093 ;
+    bgsjo:journeyID "SJ_CH6_003" .
+
+bgsjo:SJ_CH6_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH06 ;
+    bgsjo:hasCurrentStage bgsjo:ST127 ;
+    bgsjo:hasFineGrainedLaw bglo:CH6_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST130 ;
+    bgsjo:journeyID "SJ_CH6_004" .
+
+bgsjo:SJ_CH7_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST126 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST079 ;
+    bgsjo:journeyID "SJ_CH7_001" .
+
+bgsjo:SJ_CH7_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST090 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST139 ;
+    bgsjo:journeyID "SJ_CH7_002" .
+
+bgsjo:SJ_CH7_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST052 ;
+    bgsjo:journeyID "SJ_CH7_003" .
+
+bgsjo:SJ_CH7_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL8 ;
+    bgsjo:hasNextStage bgsjo:Stage_Detachment ;
+    bgsjo:journeyID "SJ_CH7_004" .
+
+bgsjo:SJ_CH7_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST076 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL11 ;
+    bgsjo:hasNextStage bgsjo:ST037 ;
+    bgsjo:journeyID "SJ_CH7_005" .
+
+bgsjo:SJ_CH7_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST019 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST163 ;
+    bgsjo:journeyID "SJ_CH7_006" .
+
+bgsjo:SJ_CH7_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST051 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST033 ;
+    bgsjo:journeyID "SJ_CH7_007" .
+
+bgsjo:SJ_CH7_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST066 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL22 ;
+    bgsjo:hasNextStage bgsjo:ST111 ;
+    bgsjo:journeyID "SJ_CH7_008" .
+
+bgsjo:SJ_CH7_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST123 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL27 ;
+    bgsjo:hasNextStage bgsjo:ST141 ;
+    bgsjo:journeyID "SJ_CH7_009" .
+
+bgsjo:SJ_CH7_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH07 ;
+    bgsjo:hasCurrentStage bgsjo:ST078 ;
+    bgsjo:hasFineGrainedLaw bglo:CH7_FL30 ;
+    bgsjo:hasNextStage bgsjo:ST026 ;
+    bgsjo:journeyID "SJ_CH7_010" .
+
+bgsjo:SJ_CH8_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST054 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL2 ;
+    bgsjo:hasNextStage bgsjo:ST142 ;
+    bgsjo:journeyID "SJ_CH8_001" .
+
+bgsjo:SJ_CH8_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST003 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL4 ;
+    bgsjo:hasNextStage bgsjo:ST112 ;
+    bgsjo:journeyID "SJ_CH8_002" .
+
+bgsjo:SJ_CH8_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST158 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL6 ;
+    bgsjo:hasNextStage bgsjo:ST049 ;
+    bgsjo:journeyID "SJ_CH8_003" .
+
+bgsjo:SJ_CH8_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST030 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL9 ;
+    bgsjo:hasNextStage bgsjo:ST012 ;
+    bgsjo:journeyID "SJ_CH8_004" .
+
+bgsjo:SJ_CH8_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST169 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST143 ;
+    bgsjo:journeyID "SJ_CH8_005" .
+
+bgsjo:SJ_CH8_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST152 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL15 ;
+    bgsjo:hasNextStage bgsjo:ST048 ;
+    bgsjo:journeyID "SJ_CH8_006" .
+
+bgsjo:SJ_CH8_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST006 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL18 ;
+    bgsjo:hasNextStage bgsjo:ST113 ;
+    bgsjo:journeyID "SJ_CH8_007" .
+
+bgsjo:SJ_CH8_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST056 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL22 ;
+    bgsjo:hasNextStage bgsjo:ST016 ;
+    bgsjo:journeyID "SJ_CH8_008" .
+
+bgsjo:SJ_CH8_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST068 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL26 ;
+    bgsjo:hasNextStage bgsjo:ST148 ;
+    bgsjo:journeyID "SJ_CH8_009" .
+
+bgsjo:SJ_CH8_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH08 ;
+    bgsjo:hasCurrentStage bgsjo:ST005 ;
+    bgsjo:hasFineGrainedLaw bglo:CH8_FL30 ;
+    bgsjo:hasNextStage bgsjo:ST086 ;
+    bgsjo:journeyID "SJ_CH8_010" .
+
+bgsjo:SJ_CH9_001 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST078 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL1 ;
+    bgsjo:hasNextStage bgsjo:ST052 ;
+    bgsjo:journeyID "SJ_CH9_001" .
+
+bgsjo:SJ_CH9_002 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST038 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL3 ;
+    bgsjo:hasNextStage bgsjo:ST156 ;
+    bgsjo:journeyID "SJ_CH9_002" .
+
+bgsjo:SJ_CH9_003 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST137 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL5 ;
+    bgsjo:hasNextStage bgsjo:ST032 ;
+    bgsjo:journeyID "SJ_CH9_003" .
+
+bgsjo:SJ_CH9_004 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST131 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL8 ;
+    bgsjo:hasNextStage bgsjo:ST033 ;
+    bgsjo:journeyID "SJ_CH9_004" .
+
+bgsjo:SJ_CH9_005 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST045 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL12 ;
+    bgsjo:hasNextStage bgsjo:ST058 ;
+    bgsjo:journeyID "SJ_CH9_005" .
+
+bgsjo:SJ_CH9_006 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST138 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL16 ;
+    bgsjo:hasNextStage bgsjo:ST117 ;
+    bgsjo:journeyID "SJ_CH9_006" .
+
+bgsjo:SJ_CH9_007 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST089 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL20 ;
+    bgsjo:hasNextStage bgsjo:ST024 ;
+    bgsjo:journeyID "SJ_CH9_007" .
+
+bgsjo:SJ_CH9_008 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST092 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL24 ;
+    bgsjo:hasNextStage bgsjo:ST120 ;
+    bgsjo:journeyID "SJ_CH9_008" .
+
+bgsjo:SJ_CH9_009 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST061 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL29 ;
+    bgsjo:hasNextStage bgsjo:ST153 ;
+    bgsjo:journeyID "SJ_CH9_009" .
+
+bgsjo:SJ_CH9_010 a bgsjo:SpiritualJourney ;
+    bgsjo:belongsToChapter bgsjo:CH09 ;
+    bgsjo:hasCurrentStage bgsjo:ST005 ;
+    bgsjo:hasFineGrainedLaw bglo:CH9_FL34 ;
+    bgsjo:hasNextStage bgsjo:ST088 ;
+    bgsjo:journeyID "SJ_CH9_010" .
+
+bgsjo:belongsToChapter a owl:ObjectProperty ;
+    rdfs:label "belongsToChapter" ;
+    rdfs:domain bgsjo:SpiritualJourney ;
+    rdfs:range bgsjo:Chapter .
+
+bgsjo:chapterID a owl:DatatypeProperty ;
+    rdfs:label "chapterID" ;
+    rdfs:domain bgsjo:Chapter ;
+    rdfs:range xsd:string .
+
+bgsjo:hasCurrentStage a owl:ObjectProperty ;
+    rdfs:label "hasCurrentStage" ;
+    rdfs:domain bgsjo:SpiritualJourney ;
+    rdfs:range bgsjo:JourneyStage .
+
+bgsjo:hasFineGrainedLaw a owl:ObjectProperty ;
+    rdfs:label "hasFineGrainedLaw" ;
+    rdfs:domain bgsjo:SpiritualJourney ;
+    rdfs:range bglo:FineGrainedLaw .
+
+bgsjo:hasNextStage a owl:ObjectProperty ;
+    rdfs:label "hasNextStage" ;
+    rdfs:domain bgsjo:SpiritualJourney ;
+    rdfs:range bgsjo:JourneyStage .
+
+bgsjo:journeyID a owl:DatatypeProperty ;
+    rdfs:label "journeyID" ;
+    rdfs:domain bgsjo:SpiritualJourney ;
+    rdfs:range xsd:string .
+
+bgsjo:stageID a owl:DatatypeProperty ;
+    rdfs:label "stageID" ;
+    rdfs:domain bgsjo:JourneyStage ;
+    rdfs:range xsd:string .
+
+bgsjo:stageName a owl:DatatypeProperty ;
+    rdfs:label "stageName" ;
+    rdfs:domain bgsjo:JourneyStage ;
+    rdfs:range xsd:string .
+
+bglo:FineGrainedLaw a owl:Class ;
+    rdfs:label "FineGrainedLaw" .
+
+bgsjo:ST001 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST001" ;
+    bgsjo:stageName "Acceptance" .
+
+bgsjo:ST002 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST002" ;
+    bgsjo:stageName "Action Confusion" .
+
+bgsjo:ST004 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST004" ;
+    bgsjo:stageName "Apathy" .
+
+bgsjo:ST007 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST007" ;
+    bgsjo:stageName "Awareness of Gunas" .
+
+bgsjo:ST008 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST008" ;
+    bgsjo:stageName "Body Identification" .
+
+bgsjo:ST009 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST009" ;
+    bgsjo:stageName "Clarity" .
+
+bgsjo:ST011 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST011" ;
+    bgsjo:stageName "Complete Surrender" .
+
+bgsjo:ST013 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST013" ;
+    bgsjo:stageName "Confidence" .
+
+bgsjo:ST014 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST014" ;
+    bgsjo:stageName "Conflict" .
+
+bgsjo:ST016 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST016" ;
+    bgsjo:stageName "Constant Remembrance" .
+
+bgsjo:ST018 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST018" ;
+    bgsjo:stageName "Cosmic Vision" .
+
+bgsjo:ST019 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST019" ;
+    bgsjo:stageName "Curiosity" .
+
+bgsjo:ST020 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST020" ;
+    bgsjo:stageName "Delusion" .
+
+bgsjo:ST021 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST021" ;
+    bgsjo:stageName "Denial" .
+
+bgsjo:ST023 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST023" ;
+    bgsjo:stageName "Determination" .
+
+bgsjo:ST024 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST024" ;
+    bgsjo:stageName "Devotion" .
+
+bgsjo:ST025 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST025" ;
+    bgsjo:stageName "Devotional Joy" .
+
+bgsjo:ST026 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST026" ;
+    bgsjo:stageName "Devotional Understanding" .
+
+bgsjo:ST027 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST027" ;
+    bgsjo:stageName "Dharma Alignment" .
+
+bgsjo:ST029 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST029" ;
+    bgsjo:stageName "Discouragement" .
+
+bgsjo:ST031 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST031" ;
+    bgsjo:stageName "Divine Awareness" .
+
+bgsjo:ST034 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST034" ;
+    bgsjo:stageName "Divine Knowledge" .
+
+bgsjo:ST035 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST035" ;
+    bgsjo:stageName "Divine Qualities" .
+
+bgsjo:ST036 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST036" ;
+    bgsjo:stageName "Divine Recognition" .
+
+bgsjo:ST037 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST037" ;
+    bgsjo:stageName "Divine Understanding" .
+
+bgsjo:ST040 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST040" ;
+    bgsjo:stageName "Egoistic Action" .
+
+bgsjo:ST041 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST041" ;
+    bgsjo:stageName "Emotional Fluctuation" .
+
+bgsjo:ST042 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST042" ;
+    bgsjo:stageName "Emotional Reactivity" .
+
+bgsjo:ST043 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST043" ;
+    bgsjo:stageName "Emotional Stability" .
+
+bgsjo:ST044 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST044" ;
+    bgsjo:stageName "Enlightened Action" .
+
+bgsjo:ST045 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST045" ;
+    bgsjo:stageName "Entitlement" .
+
+bgsjo:ST048 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST048" ;
+    bgsjo:stageName "Eternal Awareness" .
+
+bgsjo:ST049 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST049" ;
+    bgsjo:stageName "Eternal Perspective" .
+
+bgsjo:ST050 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST050" ;
+    bgsjo:stageName "Existential Questioning" .
+
+bgsjo:ST051 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST051" ;
+    bgsjo:stageName "External Dependence" .
+
+bgsjo:ST055 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST055" ;
+    bgsjo:stageName "Fearlessness" .
+
+bgsjo:ST056 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST056" ;
+    bgsjo:stageName "Forgetfulness" .
+
+bgsjo:ST057 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST057" ;
+    bgsjo:stageName "Forgiveness" .
+
+bgsjo:ST059 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST059" ;
+    bgsjo:stageName "Greed" .
+
+bgsjo:ST060 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST060" ;
+    bgsjo:stageName "Grief" .
+
+bgsjo:ST061 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST061" ;
+    bgsjo:stageName "Guilt" .
+
+bgsjo:ST062 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST062" ;
+    bgsjo:stageName "Guna Transcendence" .
+
+bgsjo:ST063 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST063" ;
+    bgsjo:stageName "Higher Understanding" .
+
+bgsjo:ST064 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST064" ;
+    bgsjo:stageName "Humble Charity" .
+
+bgsjo:ST067 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST067" ;
+    bgsjo:stageName "Inaction" .
+
+bgsjo:ST070 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST070" ;
+    bgsjo:stageName "Individual Identity" .
+
+bgsjo:ST071 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST071" ;
+    bgsjo:stageName "Inferiority" .
+
+bgsjo:ST072 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST072" ;
+    bgsjo:stageName "Inner Freedom" .
+
+bgsjo:ST075 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST075" ;
+    bgsjo:stageName "Inspiration" .
+
+bgsjo:ST076 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST076" ;
+    bgsjo:stageName "Intellectual Knowledge" .
+
+bgsjo:ST077 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST077" ;
+    bgsjo:stageName "Irritation" .
+
+bgsjo:ST079 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST079" ;
+    bgsjo:stageName "Knowledge of Reality" .
+
+bgsjo:ST080 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST080" ;
+    bgsjo:stageName "Knowledge of Self" .
+
+bgsjo:ST082 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST082" ;
+    bgsjo:stageName "Lack of Discipline" .
+
+bgsjo:ST083 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST083" ;
+    bgsjo:stageName "Limited Understanding" .
+
+bgsjo:ST084 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST084" ;
+    bgsjo:stageName "Limited Vision" .
+
+bgsjo:ST085 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST085" ;
+    bgsjo:stageName "Liberation (Moksha)" .
+
+bgsjo:ST086 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST086" ;
+    bgsjo:stageName "Liberation Orientation" .
+
+bgsjo:ST087 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST087" ;
+    bgsjo:stageName "Loneliness" .
+
+bgsjo:ST089 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST089" ;
+    bgsjo:stageName "Material Attachment" .
+
+bgsjo:ST091 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST091" ;
+    bgsjo:stageName "Material Vision" .
+
+bgsjo:ST092 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST092" ;
+    bgsjo:stageName "Meaninglessness" .
+
+bgsjo:ST093 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST093" ;
+    bgsjo:stageName "Meditation" .
+
+bgsjo:ST094 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST094" ;
+    bgsjo:stageName "Mental Agitation" .
+
+bgsjo:ST095 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST095" ;
+    bgsjo:stageName "Mental Impurity" .
+
+bgsjo:ST096 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST096" ;
+    bgsjo:stageName "Moral Clarity" .
+
+bgsjo:ST097 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST097" ;
+    bgsjo:stageName "Moral Conflict" .
+
+bgsjo:ST098 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST098" ;
+    bgsjo:stageName "Moral Weakness" .
+
+bgsjo:ST099 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST099" ;
+    bgsjo:stageName "Mortality Awareness" .
+
+bgsjo:ST100 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST100" ;
+    bgsjo:stageName "Need for Control" .
+
+bgsjo:ST101 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST101" ;
+    bgsjo:stageName "Neglect" .
+
+bgsjo:ST102 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST102" ;
+    bgsjo:stageName "Negligence" .
+
+bgsjo:ST103 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST103" ;
+    bgsjo:stageName "Non-Attachment" .
+
+bgsjo:ST104 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST104" ;
+    bgsjo:stageName "Non-Doership" .
+
+bgsjo:ST106 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST106" ;
+    bgsjo:stageName "Pure Devotion" .
+
+bgsjo:ST107 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST107" ;
+    bgsjo:stageName "Purpose Clarity" .
+
+bgsjo:ST108 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST108" ;
+    bgsjo:stageName "Purposefulness" .
+
+bgsjo:ST109 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST109" ;
+    bgsjo:stageName "Reality Acceptance" .
+
+bgsjo:ST110 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST110" ;
+    bgsjo:stageName "Realization of Purushottama" .
+
+bgsjo:ST111 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST111" ;
+    bgsjo:stageName "Recognition of the Divine" .
+
+bgsjo:ST112 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST112" ;
+    bgsjo:stageName "Remembrance of the Divine" .
+
+bgsjo:ST114 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST114" ;
+    bgsjo:stageName "Resentment" .
+
+bgsjo:ST115 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST115" ;
+    bgsjo:stageName "Responsible Action" .
+
+bgsjo:ST118 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST118" ;
+    bgsjo:stageName "Right Understanding" .
+
+bgsjo:ST119 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST119" ;
+    bgsjo:stageName "Righteousness" .
+
+bgsjo:ST120 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST120" ;
+    bgsjo:stageName "Sacred Purpose" .
+
+bgsjo:ST121 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST121" ;
+    bgsjo:stageName "Sattva" .
+
+bgsjo:ST122 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST122" ;
+    bgsjo:stageName "Sattva Awareness" .
+
+bgsjo:ST124 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST124" ;
+    bgsjo:stageName "Self-Awareness" .
+
+bgsjo:ST125 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST125" ;
+    bgsjo:stageName "Self-Centeredness" .
+
+bgsjo:ST127 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST127" ;
+    bgsjo:stageName "Self-Doubt" .
+
+bgsjo:ST128 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST128" ;
+    bgsjo:stageName "Self-Inquiry" .
+
+bgsjo:ST131 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST131" ;
+    bgsjo:stageName "Self-Reliance" .
+
+bgsjo:ST132 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST132" ;
+    bgsjo:stageName "Self-Worth through Divine Connection" .
+
+bgsjo:ST133 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST133" ;
+    bgsjo:stageName "Self-Observation" .
+
+bgsjo:ST134 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST134" ;
+    bgsjo:stageName "Selfishness" .
+
+bgsjo:ST135 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST135" ;
+    bgsjo:stageName "Selfless Action" .
+
+bgsjo:ST136 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST136" ;
+    bgsjo:stageName "Selfless Service" .
+
+bgsjo:ST140 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST140" ;
+    bgsjo:stageName "Spiritual Aspiration" .
+
+bgsjo:ST141 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST141" ;
+    bgsjo:stageName "Spiritual Commitment" .
+
+bgsjo:ST142 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST142" ;
+    bgsjo:stageName "Spiritual Confidence" .
+
+bgsjo:ST143 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST143" ;
+    bgsjo:stageName "Spiritual Focus" .
+
+bgsjo:ST144 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST144" ;
+    bgsjo:stageName "Spiritual Freedom" .
+
+bgsjo:ST145 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST145" ;
+    bgsjo:stageName "Spiritual Reflection" .
+
+bgsjo:ST146 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST146" ;
+    bgsjo:stageName "Spiritual Stagnation" .
+
+bgsjo:ST147 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST147" ;
+    bgsjo:stageName "Steadfastness" .
+
+bgsjo:ST148 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST148" ;
+    bgsjo:stageName "Steady Practice" .
+
+bgsjo:ST149 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST149" ;
+    bgsjo:stageName "Stress" .
+
+bgsjo:ST151 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST151" ;
+    bgsjo:stageName "Tamas" .
+
+bgsjo:ST152 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST152" ;
+    bgsjo:stageName "Temporal Awareness" .
+
+bgsjo:ST153 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST153" ;
+    bgsjo:stageName "Transformation" .
+
+bgsjo:ST154 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST154" ;
+    bgsjo:stageName "Transcendence" .
+
+bgsjo:ST155 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST155" ;
+    bgsjo:stageName "Transcendental Understanding" .
+
+bgsjo:ST157 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST157" ;
+    bgsjo:stageName "Trust in the Divine" .
+
+bgsjo:ST160 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST160" ;
+    bgsjo:stageName "Unity Consciousness" .
+
+bgsjo:ST161 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST161" ;
+    bgsjo:stageName "Universal Love" .
+
+bgsjo:ST162 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST162" ;
+    bgsjo:stageName "Universal Vision" .
+
+bgsjo:ST164 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST164" ;
+    bgsjo:stageName "Wisdom Seeking" .
+
+bgsjo:ST165 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST165" ;
+    bgsjo:stageName "Weak Commitment" .
+
+bgsjo:ST166 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST166" ;
+    bgsjo:stageName "Weak Willpower" .
+
+bgsjo:ST167 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST167" ;
+    bgsjo:stageName "Wonder" .
+
+bgsjo:ST168 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST168" ;
+    bgsjo:stageName "Worldly Attachment" .
+
+bgsjo:ST169 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST169" ;
+    bgsjo:stageName "Worldly Focus" .
+
+bgsjo:Stage_Anger a bgsjo:JourneyStage ;
+    bgsjo:stageName "Anger" .
+
+bgsjo:Stage_Appreciation a bgsjo:JourneyStage ;
+    bgsjo:stageName "Appreciation" .
+
+bgsjo:Stage_Contentment a bgsjo:JourneyStage ;
+    bgsjo:stageName "Contentment" .
+
+bgsjo:Stage_Demoniac_Tendencies a bgsjo:JourneyStage ;
+    bgsjo:stageName "Demoniac Tendencies" .
+
+bgsjo:Stage_Despair a bgsjo:JourneyStage ;
+    bgsjo:stageName "Despair" .
+
+bgsjo:Stage_Direct_Realization a bgsjo:JourneyStage ;
+    bgsjo:stageName "Direct Realization" .
+
+bgsjo:Stage_Dishonesty a bgsjo:JourneyStage ;
+    bgsjo:stageName "Dishonesty" .
+
+bgsjo:Stage_Dissatisfaction a bgsjo:JourneyStage ;
+    bgsjo:stageName "Dissatisfaction" .
+
+bgsjo:Stage_Duty_Awareness a bgsjo:JourneyStage ;
+    bgsjo:stageName "Duty Awareness" .
+
+bgsjo:Stage_Envy a bgsjo:JourneyStage ;
+    bgsjo:stageName "Envy" .
+
+bgsjo:Stage_Impulsiveness a bgsjo:JourneyStage ;
+    bgsjo:stageName "Impulsiveness" .
+
+bgsjo:Stage_Mature_Faith a bgsjo:JourneyStage ;
+    bgsjo:stageName "Mature Faith" .
+
+bgsjo:Stage_Mental_Purification a bgsjo:JourneyStage ;
+    bgsjo:stageName "Mental Purification" .
+
+bgsjo:Stage_Purity a bgsjo:JourneyStage ;
+    bgsjo:stageName "Purity" .
+
+bgsjo:Stage_Self_Realization a bgsjo:JourneyStage ;
+    bgsjo:stageName "Self-Realization" .
+
+bgsjo:Stage_Truthfulness a bgsjo:JourneyStage ;
+    bgsjo:stageName "Truthfulness" .
+
+bgsjo:ST010 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST010" ;
+    bgsjo:stageName "Compassion" .
+
+bgsjo:ST017 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST017" ;
+    bgsjo:stageName "Conviction" .
+
+bgsjo:ST028 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST028" ;
+    bgsjo:stageName "Discernment" .
+
+bgsjo:ST030 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST030" ;
+    bgsjo:stageName "Distraction" .
+
+bgsjo:ST032 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST032" ;
+    bgsjo:stageName "Divine Connection" .
+
+bgsjo:ST033 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST033" ;
+    bgsjo:stageName "Divine Dependence" .
+
+bgsjo:ST047 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST047" ;
+    bgsjo:stageName "Ethical Conflict" .
+
+bgsjo:ST054 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST054" ;
+    bgsjo:stageName "Fear of Death" .
+
+bgsjo:ST058 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST058" ;
+    bgsjo:stageName "Gratitude" .
+
+bgsjo:ST068 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST068" ;
+    bgsjo:stageName "Inconsistency" .
+
+bgsjo:ST069 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST069" ;
+    bgsjo:stageName "Indifference" .
+
+bgsjo:ST073 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST073" ;
+    bgsjo:stageName "Inner Peace" .
+
+bgsjo:ST074 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST074" ;
+    bgsjo:stageName "Inquiry" .
+
+bgsjo:ST081 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST081" ;
+    bgsjo:stageName "Knowledge Seeking" .
+
+bgsjo:ST088 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST088" ;
+    bgsjo:stageName "Loving Devotion" .
+
+bgsjo:ST090 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST090" ;
+    bgsjo:stageName "Material Awareness" .
+
+bgsjo:ST117 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST117" ;
+    bgsjo:stageName "Reverence" .
+
+bgsjo:ST123 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST123" ;
+    bgsjo:stageName "Seeking" .
+
+bgsjo:ST129 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST129" ;
+    bgsjo:stageName "Self-Knowledge" .
+
+bgsjo:ST130 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST130" ;
+    bgsjo:stageName "Self-Mastery" .
+
+bgsjo:ST138 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST138" ;
+    bgsjo:stageName "Skepticism" .
+
+bgsjo:ST139 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST139" ;
+    bgsjo:stageName "Spiritual Awareness" .
+
+bgsjo:ST150 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST150" ;
+    bgsjo:stageName "Surrender" .
+
+bgsjo:ST156 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST156" ;
+    bgsjo:stageName "Trust" .
+
+bgsjo:ST159 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST159" ;
+    bgsjo:stageName "Understanding" .
+
+bgsjo:Stage_Discipline a bgsjo:JourneyStage ;
+    bgsjo:stageName "Discipline" .
+
+bgsjo:Stage_Duty_Consciousness a bgsjo:JourneyStage ;
+    bgsjo:stageName "Duty Consciousness" .
+
+bgsjo:ST003 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST003" ;
+    bgsjo:stageName "Anxiety" .
+
+bgsjo:ST005 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST005" ;
+    bgsjo:stageName "Aspiration" .
+
+bgsjo:ST012 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST012" ;
+    bgsjo:stageName "Concentration" .
+
+bgsjo:ST022 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST022" ;
+    bgsjo:stageName "Desire" .
+
+bgsjo:ST046 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST046" ;
+    bgsjo:stageName "Equanimity" .
+
+bgsjo:ST052 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST052" ;
+    bgsjo:stageName "Faith" .
+
+bgsjo:ST053 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST053" ;
+    bgsjo:stageName "Fear" .
+
+bgsjo:ST078 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST078" ;
+    bgsjo:stageName "Knowledge" .
+
+bgsjo:ST116 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST116" ;
+    bgsjo:stageName "Restlessness" .
+
+bgsjo:ST137 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST137" ;
+    bgsjo:stageName "Separation" .
+
+bgsjo:ST158 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST158" ;
+    bgsjo:stageName "Uncertainty" .
+
+bgsjo:CH01 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH01" .
+
+bgsjo:CH02 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH02" .
+
+bgsjo:CH03 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH03" .
+
+bgsjo:CH04 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH04" .
+
+bgsjo:CH05 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH05" .
+
+bgsjo:CH06 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH06" .
+
+bgsjo:ST039 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST039" ;
+    bgsjo:stageName "Ego" .
+
+bgsjo:ST113 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST113" ;
+    bgsjo:stageName "Renunciation" .
+
+bgsjo:ST126 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST126" ;
+    bgsjo:stageName "Self-Control" .
+
+bgsjo:ST163 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST163" ;
+    bgsjo:stageName "Wisdom" .
+
+bgsjo:Stage_Detachment a bgsjo:JourneyStage ;
+    bgsjo:stageName "Detachment" .
+
+bgsjo:ST015 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST015" ;
+    bgsjo:stageName "Confusion" .
+
+bgsjo:ST038 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST038" ;
+    bgsjo:stageName "Doubt" .
+
+bgsjo:ST066 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST066" ;
+    bgsjo:stageName "Ignorance" .
+
+bgsjo:ST065 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST065" ;
+    bgsjo:stageName "Humility" .
+
+bgsjo:ST105 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST105" ;
+    bgsjo:stageName "Pride" .
+
+bgsjo:CH07 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH07" .
+
+bgsjo:CH08 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH08" .
+
+bgsjo:CH09 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH09" .
+
+bgsjo:CH10 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH10" .
+
+bgsjo:CH11 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH11" .
+
+bgsjo:CH12 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH12" .
+
+bgsjo:CH13 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH13" .
+
+bgsjo:CH14 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH14" .
+
+bgsjo:CH15 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH15" .
+
+bgsjo:CH16 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH16" .
+
+bgsjo:CH17 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH17" .
+
+bgsjo:CH18 a bgsjo:Chapter ;
+    bgsjo:chapterID "CH18" .
+
+bgsjo:ST006 a bgsjo:JourneyStage ;
+    bgsjo:stageID "ST006" ;
+    bgsjo:stageName "Attachment" .
+
+bgsjo:Chapter a owl:Class ;
+    rdfs:label "Chapter" .
+
+bgsjo:SpiritualJourney a owl:Class ;
+    rdfs:label "SpiritualJourney" .
+
+bgsjo:JourneyStage a owl:Class ;
+    rdfs:label "JourneyStage" .
+
